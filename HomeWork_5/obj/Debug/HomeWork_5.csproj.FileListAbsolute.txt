@@ -1,0 +1,8 @@
+E:\Хранилища\IJunior_Homeworks\HomeWork_5\bin\Debug\HomeWork_5.exe.config
+E:\Хранилища\IJunior_Homeworks\HomeWork_5\bin\Debug\HomeWork_5.exe
+E:\Хранилища\IJunior_Homeworks\HomeWork_5\bin\Debug\HomeWork_5.pdb
+E:\Хранилища\IJunior_Homeworks\HomeWork_5\obj\Debug\HomeWork_5.csproj.AssemblyReference.cache
+E:\Хранилища\IJunior_Homeworks\HomeWork_5\obj\Debug\HomeWork_5.csproj.SuggestedBindingRedirects.cache
+E:\Хранилища\IJunior_Homeworks\HomeWork_5\obj\Debug\HomeWork_5.csproj.CoreCompileInputs.cache
+E:\Хранилища\IJunior_Homeworks\HomeWork_5\obj\Debug\HomeWork_5.exe
+E:\Хранилища\IJunior_Homeworks\HomeWork_5\obj\Debug\HomeWork_5.pdb
