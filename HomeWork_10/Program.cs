@@ -17,9 +17,9 @@ namespace HomeWork_10
                     sum += i;
                 }
             }
+
             Console.WriteLine(number);
             Console.WriteLine(sum);
-
         }
     }
 }
