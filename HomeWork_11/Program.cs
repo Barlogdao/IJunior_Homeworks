@@ -10,81 +10,95 @@ namespace HomeWork_11
     {
         static void Main(string[] args)
         {
-            const int CommandDollar = 1;
-            const int CommandEuro = 2;
-            const int CommandRuble = 3;
-            const int CommandExit = 4;
+            const int MenuExit = 0;
+            const int MenuDollar = 1;
+            const int MenuEuro = 2;
+            const int MenuRuble = 3;
 
 
 
-            decimal dollarWallet = 100;
-            decimal euroWallet = 200;
-            decimal rubleWallet = 50000;
+            const string ConverToRubleCommand = "рубль";
+            const string ConertToEuroCommand = "евро";
+            const string ConvertToDollarCommand = "доллар";
 
             const float DollarToEuroCoefficient = 0.9f;
             const float DollarToRubleCoefficient = 100f;
-            const float DollarToDollarCoefficient = 1f;
             const float EuroToRubleCoefficient = 102f;
             const float EuroToDollarCoefficient = 1.1f;
-            const float EuroToEuroCoefficient = 1f;
             const float RubleToDollarCoefficient = 0.01f;
             const float RubleToEuroCoefficient = 0.012f;
-            const float RubleToRubleCoefficient = 1f;
+
+            //const string StartOperationChoiseMessage = $"Выберите операцию:\n{MenuDollar} - конвертировать доллары\n{MenuEuro} - конвертировать евро\n{MenuRuble} - конвертировать рубли\n{MenuExit} - выйти";
+
+            const string WrongCommand = "Некорректная команда!";
+
+            float dollarWallet = 100;
+            float euroWallet = 200;
+            float rubleWallet = 50000;
 
 
-            Console.WriteLine($"Ваш баланс:\n{dollarWallet} долларов\n{euroWallet} евро\n{rubleWallet} рублей");
-            Console.WriteLine($"Какую валюту хотите конвертировать?\nдоллары - 1\nевро - 2\nрубли - 3\nвыйти - 4");
-            int input = int.Parse(Console.ReadLine());
             decimal fromCurrency = 0;
             decimal toCurrency = 0;
             int convertAmount;
 
-            switch (input)
+            while (true)
             {
-                case CommandDollar:
-                    fromCurrency = dollarWallet;
-                    break;
-                case CommandEuro:
-                    fromCurrency = euroWallet;
-                    break;
-                case CommandRuble:
-                    fromCurrency = rubleWallet;
-                    break;
-                case CommandExit: return;
+                Console.WriteLine($"Ваш баланс:{dollarWallet} долларов, {euroWallet} евро, {rubleWallet} рублей.");
+                Console.WriteLine($"Выберите операцию:\n{MenuDollar} - конвертировать доллары\n{MenuEuro} - конвертировать евро\n{MenuRuble} - конвертировать рубли\n{MenuExit} - выйти");
+                int input = int.Parse(Console.ReadLine());
+
+                switch (input)
+                {
+                    case MenuDollar:
+                        Console.WriteLine("Выбраны доллары");
+                        Console.Write("Сколько долларов вы хотите обменять? ");
+                        float exchangeAmount = float.Parse(Console.ReadLine());
+
+                        while (exchangeAmount > dollarWallet)
+                        {
+                            Console.WriteLine("Не достаточно средств для совершения операции!");
+                            Console.Write("Сколько долларов вы хотите обменять? ");
+                            exchangeAmount = float.Parse(Console.ReadLine());
+                        }
+
+                        Console.WriteLine($"Выбрано {exchangeAmount} долларов");
+                        Console.WriteLine($"Курс обмена\n{DollarToEuroCoefficient} евро за доллар;\n{DollarToRubleCoefficient} рублей за доллар");
+                        Console.WriteLine($"В какую валюту хотите конвертировать доллары?\n{ConverToRubleCommand} - в рубли\n{ConertToEuroCommand} - в евро");
+
+                        string inputCommand = Console.ReadLine();
+
+                        switch (inputCommand)
+                        {
+                            case ConverToRubleCommand:
+                                dollarWallet -= exchangeAmount;
+                                rubleWallet += exchangeAmount * DollarToRubleCoefficient;
+                                Console.WriteLine($"Конвертация прошла успешно!");
+                                Console.WriteLine($"Ваш баланс:{dollarWallet} долларов, {euroWallet} евро, {rubleWallet} рублей.");
+
+                                break;
+                            case ConertToEuroCommand:
+                                break;
+                            default:
+                                Console.WriteLine(WrongCommand);
+                                break;
+                        }
+
+
+                        break;
+                    case MenuEuro:
+
+                        break;
+                    case MenuRuble:
+
+                        break;
+                    case MenuExit: return;
+                    default:
+                        Console.WriteLine(WrongCommand);
+                        break;
+                }
             }
 
 
-            Console.WriteLine($"Сколько хотите конвертировать");
-            input = int.Parse(Console.ReadLine());
-
-            while ( input < fromCurrency) 
-            {
-                Console.WriteLine($"У вас не хватает средств!");
-                Console.WriteLine($"Ваш баланс:\n{dollarWallet} долларов\n{euroWallet} евро\n{rubleWallet} рублей");
-                Console.WriteLine($"Сколько хотите конвертировать");
-                input = int.Parse(Console.ReadLine());
-            }
-
-            convertAmount = input;
-
-
-            Console.WriteLine($"В Какую валюту хотите конвертировать?\nдоллары - 1\nевро - 2\nрубли - 3");
-            input = int.Parse(Console.ReadLine());
-            switch (input)
-            {
-                case CommandDollar:
-                    toCurrency = dollarWallet;
-                    break;
-                case CommandEuro:
-                    toCurrency = euroWallet;
-                    break;
-                case CommandRuble:
-                    toCurrency = rubleWallet;
-                    break;
-            }
-            Console.WriteLine($"Сколько хотите конвертировать");
-            input = int.Parse(Console.ReadLine());
-            
 
 
         }

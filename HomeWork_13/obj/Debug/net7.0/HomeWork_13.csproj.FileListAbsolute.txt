@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_13\bin\Debug\net7.0\HomeWork_13.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_13\bin\Debug\net7.0\HomeWork_13.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_13\bin\Debug\net7.0\HomeWork_13.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_13\bin\Debug\net7.0\HomeWork_13.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_13\bin\Debug\net7.0\HomeWork_13.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_13\obj\Debug\net7.0\HomeWork_13.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_13\obj\Debug\net7.0\HomeWork_13.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_13\obj\Debug\net7.0\HomeWork_13.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_13\obj\Debug\net7.0\HomeWork_13.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_13\obj\Debug\net7.0\HomeWork_13.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_13\obj\Debug\net7.0\HomeWork_13.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_13\obj\Debug\net7.0\refint\HomeWork_13.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_13\obj\Debug\net7.0\HomeWork_13.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_13\obj\Debug\net7.0\HomeWork_13.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_13\obj\Debug\net7.0\ref\HomeWork_13.dll

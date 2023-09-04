@@ -7,18 +7,21 @@ namespace HomeWork_10
         static void Main(string[] args)
         {
             Random random = new Random();
-            int number = random.Next(0, 101);
+            int maxValue = 100;
+            int randomValue = random.Next(maxValue +1);
+            int moduloDividerOne = 3;
+            int moduloDividerTwo = 5;
             int sum = 0;
 
-            for (int i = 0; i <= number; i++)
+            for (int i = 0; i <= randomValue; i++)
             {
-                if (i % 3  == 0 || i % 5 == 0)
+                if (i % moduloDividerOne == 0 || i % moduloDividerTwo == 0)
                 {
                     sum += i;
                 }
             }
 
-            Console.WriteLine(number);
+            Console.WriteLine(randomValue);
             Console.WriteLine(sum);
         }
     }

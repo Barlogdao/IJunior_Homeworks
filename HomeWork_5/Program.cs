@@ -6,12 +6,15 @@ namespace HomeWork_5
     {
         static void Main(string[] args)
         {
+            const int CrystalPrice = 5;
+
             Console.WriteLine("Сколько у вас золота?");
-            int gold = Convert.ToInt32(Console.ReadLine());
-            int crystalPrice = 5;
-            Console.WriteLine($"Предлагаем вам кристаллы по {crystalPrice} золота за штуку! Сколько возьмете?");
+            int currentGold = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine($"Предлагаем вам кристаллы по {CrystalPrice} золота за штуку! Сколько возьмете?");
             int purchasedCrystals = Convert.ToInt32(Console.ReadLine());
-            int currentGold = gold - purchasedCrystals * crystalPrice;
+
+            currentGold -= purchasedCrystals * CrystalPrice;
             Console.WriteLine($"В вашем распоряжении {purchasedCrystals} кристаллов.\nУ вас осталось {currentGold} золота");
         }
     }

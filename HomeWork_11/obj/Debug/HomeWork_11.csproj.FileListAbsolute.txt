@@ -6,3 +6,11 @@ E:\Хранилища\IJunior_Homeworks\HomeWork_11\obj\Debug\HomeWork_11.csproj
 E:\Хранилища\IJunior_Homeworks\HomeWork_11\obj\Debug\HomeWork_11.csproj.CoreCompileInputs.cache
 E:\Хранилища\IJunior_Homeworks\HomeWork_11\obj\Debug\HomeWork_11.exe
 E:\Хранилища\IJunior_Homeworks\HomeWork_11\obj\Debug\HomeWork_11.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_11\bin\Debug\HomeWork_11.exe.config
+D:\ProjectsU\IJunior_Homeworks\HomeWork_11\bin\Debug\HomeWork_11.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_11\bin\Debug\HomeWork_11.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_11\obj\Debug\HomeWork_11.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_11\obj\Debug\HomeWork_11.csproj.SuggestedBindingRedirects.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_11\obj\Debug\HomeWork_11.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_11\obj\Debug\HomeWork_11.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_11\obj\Debug\HomeWork_11.pdb

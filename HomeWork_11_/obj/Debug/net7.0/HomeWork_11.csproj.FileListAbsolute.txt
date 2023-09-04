@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_11_\bin\Debug\net7.0\HomeWork_11.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_11_\bin\Debug\net7.0\HomeWork_11.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_11_\bin\Debug\net7.0\HomeWork_11.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_11_\bin\Debug\net7.0\HomeWork_11.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_11_\bin\Debug\net7.0\HomeWork_11.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_11_\obj\Debug\net7.0\HomeWork_11.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_11_\obj\Debug\net7.0\HomeWork_11.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_11_\obj\Debug\net7.0\HomeWork_11.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_11_\obj\Debug\net7.0\HomeWork_11.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_11_\obj\Debug\net7.0\HomeWork_11.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_11_\obj\Debug\net7.0\HomeWork_11.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_11_\obj\Debug\net7.0\refint\HomeWork_11.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_11_\obj\Debug\net7.0\HomeWork_11.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_11_\obj\Debug\net7.0\HomeWork_11.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_11_\obj\Debug\net7.0\ref\HomeWork_11.dll

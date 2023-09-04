@@ -6,17 +6,14 @@ namespace HomeWork_9
     {
         static void Main(string[] args)
         {
-            const int startNumber = 5;
-            const int maxNumber = 100;
-            const int increment = 7;
-            int currentNumber = startNumber;
+            int startNumber = 5;
+            int maxNumber = 96;
+            int increment = 7;
 
-            do
+            for (int i = startNumber; i <= maxNumber; i += increment)
             {
-                Console.Write(currentNumber + " ");
-                currentNumber += increment;
+                Console.Write(i + " ");
             }
-            while (currentNumber < maxNumber);
         }
     }
 }
