@@ -20,7 +20,6 @@
 
             for (int i = 0; i < boarderLenght; i++)
                 Console.Write(decorator);
-
         }
     }
 }

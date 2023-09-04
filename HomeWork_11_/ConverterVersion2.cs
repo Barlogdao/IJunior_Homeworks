@@ -43,6 +43,7 @@
                     $"\n[{CommandRubleToDollar}] - рубли на доллары" +
                     $"\n[{CommandRubleToEuro}] - рубли на евро" +
                     $"\n[{CommandExit}] - выход");
+
                 Console.Write("Ваш выбор? ");
                 string input = Console.ReadLine();
                 Console.WriteLine();
@@ -51,12 +52,15 @@
                 {
                     case CommandDollarToEuro:
                         Console.WriteLine("Обмен долларов на евро");
+
+
                         Console.Write(AmountRequestMessage);
                         float exchangeCurrencyAmount = Convert.ToSingle(Console.ReadLine());
 
                         while (exchangeCurrencyAmount > dollarWallet || exchangeCurrencyAmount < 0)
                         {
                             Console.WriteLine(IncorrectMoneyAmountMessage);
+
                             Console.Write(AmountRequestMessage);
                             exchangeCurrencyAmount = float.Parse(Console.ReadLine());
                         }
@@ -68,12 +72,14 @@
 
                     case CommandDollarToRuble:
                         Console.WriteLine("Обмен долларов на рубли");
+
                         Console.Write(AmountRequestMessage);
                         exchangeCurrencyAmount = float.Parse(Console.ReadLine());
 
                         while (exchangeCurrencyAmount > dollarWallet || exchangeCurrencyAmount < 0)
                         {
                             Console.WriteLine(IncorrectMoneyAmountMessage);
+
                             Console.Write(AmountRequestMessage);
                             exchangeCurrencyAmount = float.Parse(Console.ReadLine());
                         }
@@ -85,12 +91,14 @@
 
                     case CommandEuroToDollar:
                         Console.WriteLine("Обмен евро на доллары");
+
                         Console.Write(AmountRequestMessage);
                         exchangeCurrencyAmount = float.Parse(Console.ReadLine());
 
                         while (exchangeCurrencyAmount > euroWallet || exchangeCurrencyAmount < 0)
                         {
                             Console.WriteLine(IncorrectMoneyAmountMessage);
+
                             Console.Write(AmountRequestMessage);
                             exchangeCurrencyAmount = float.Parse(Console.ReadLine());
                         }
@@ -102,12 +110,14 @@
 
                     case CommandEuroToRuble:
                         Console.WriteLine("Обмен евро на рубли");
+
                         Console.Write(AmountRequestMessage);
                         exchangeCurrencyAmount = float.Parse(Console.ReadLine());
 
                         while (exchangeCurrencyAmount > euroWallet || exchangeCurrencyAmount < 0)
                         {
                             Console.WriteLine(IncorrectMoneyAmountMessage);
+
                             Console.Write(AmountRequestMessage);
                             exchangeCurrencyAmount = float.Parse(Console.ReadLine());
                         }
@@ -119,12 +129,14 @@
 
                     case CommandRubleToDollar:
                         Console.WriteLine("Обмен рублей на доллары");
+
                         Console.Write(AmountRequestMessage);
                         exchangeCurrencyAmount = float.Parse(Console.ReadLine());
 
                         while (exchangeCurrencyAmount > rubleWallet || exchangeCurrencyAmount < 0)
                         {
                             Console.WriteLine(IncorrectMoneyAmountMessage);
+
                             Console.Write(AmountRequestMessage);
                             exchangeCurrencyAmount = float.Parse(Console.ReadLine());
                         }
@@ -136,12 +148,14 @@
 
                     case CommandRubleToEuro:
                         Console.WriteLine("Обмен рублей на евро");
+
                         Console.Write(AmountRequestMessage);
                         exchangeCurrencyAmount = float.Parse(Console.ReadLine());
 
                         while (exchangeCurrencyAmount > rubleWallet || exchangeCurrencyAmount < 0)
                         {
                             Console.WriteLine(IncorrectMoneyAmountMessage);
+
                             Console.Write(AmountRequestMessage);
                             exchangeCurrencyAmount = float.Parse(Console.ReadLine());
                         }
