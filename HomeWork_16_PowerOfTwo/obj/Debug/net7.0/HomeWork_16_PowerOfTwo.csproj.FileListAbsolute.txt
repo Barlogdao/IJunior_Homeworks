@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_16_PowerOfTwo\bin\Debug\net7.0\HomeWork_16_PowerOfTwo.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_16_PowerOfTwo\bin\Debug\net7.0\HomeWork_16_PowerOfTwo.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_16_PowerOfTwo\bin\Debug\net7.0\HomeWork_16_PowerOfTwo.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_16_PowerOfTwo\bin\Debug\net7.0\HomeWork_16_PowerOfTwo.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_16_PowerOfTwo\bin\Debug\net7.0\HomeWork_16_PowerOfTwo.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_16_PowerOfTwo\obj\Debug\net7.0\HomeWork_16_PowerOfTwo.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_16_PowerOfTwo\obj\Debug\net7.0\HomeWork_16_PowerOfTwo.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_16_PowerOfTwo\obj\Debug\net7.0\HomeWork_16_PowerOfTwo.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_16_PowerOfTwo\obj\Debug\net7.0\HomeWork_16_PowerOfTwo.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_16_PowerOfTwo\obj\Debug\net7.0\HomeWork_16_PowerOfTwo.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_16_PowerOfTwo\obj\Debug\net7.0\HomeWork_16_PowerOfTwo.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_16_PowerOfTwo\obj\Debug\net7.0\refint\HomeWork_16_PowerOfTwo.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_16_PowerOfTwo\obj\Debug\net7.0\HomeWork_16_PowerOfTwo.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_16_PowerOfTwo\obj\Debug\net7.0\HomeWork_16_PowerOfTwo.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_16_PowerOfTwo\obj\Debug\net7.0\ref\HomeWork_16_PowerOfTwo.dll

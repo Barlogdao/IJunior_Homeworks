@@ -25,11 +25,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_10", "..\HomeWork_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_11", "..\HomeWork_11_\HomeWork_11.csproj", "{9345A16B-0E35-4E8D-9861-0A37369003B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_13", "..\HomeWork_13\HomeWork_13.csproj", "{4DDC70F1-48E3-4C76-8BEF-D27C65DDE3ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_13", "..\HomeWork_13\HomeWork_13.csproj", "{4DDC70F1-48E3-4C76-8BEF-D27C65DDE3ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_14_Password", "..\HomeWork_14_Password\HomeWork_14_Password.csproj", "{BC1E49E0-8196-4D42-A593-7831F4830A48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_14_Password", "..\HomeWork_14_Password\HomeWork_14_Password.csproj", "{BC1E49E0-8196-4D42-A593-7831F4830A48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_15_Multiples", "..\HomeWork_15_Multiples\HomeWork_15_Multiples.csproj", "{D89B08F1-73C3-47CB-A578-44414B244840}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_15_Multiples", "..\HomeWork_15_Multiples\HomeWork_15_Multiples.csproj", "{D89B08F1-73C3-47CB-A578-44414B244840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_16_PowerOfTwo", "..\HomeWork_16_PowerOfTwo\HomeWork_16_PowerOfTwo.csproj", "{A23571FA-712C-4471-B780-09EE5667DFE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{D89B08F1-73C3-47CB-A578-44414B244840}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D89B08F1-73C3-47CB-A578-44414B244840}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D89B08F1-73C3-47CB-A578-44414B244840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A23571FA-712C-4471-B780-09EE5667DFE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A23571FA-712C-4471-B780-09EE5667DFE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A23571FA-712C-4471-B780-09EE5667DFE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A23571FA-712C-4471-B780-09EE5667DFE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
