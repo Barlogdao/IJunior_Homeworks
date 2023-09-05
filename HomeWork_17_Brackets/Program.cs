@@ -4,7 +4,6 @@
     {
         static void Main(string[] args)
         {
-
             const char OpenBracket = '(';
             const char CloseBracket = ')';
 
@@ -13,7 +12,8 @@
 
             int maxNestingLevel = 1;
             int currentNestingLevel = 0;
-            bool isExpressionCorrect = false;
+            bool isExpressionCorrect = true;
+            char previousSymbol = OpenBracket;
 
             foreach (var symbol in text)
             {
@@ -21,6 +21,7 @@
                 {
                     currentNestingLevel++;
                     maxNestingLevel++;
+                    previousSymbol = symbol;
                 }
                 else if (symbol == CloseBracket)
                 {
@@ -31,17 +32,18 @@
                         isExpressionCorrect = false;
                         break;
                     }
-                    else if (currentNestingLevel == 0)
+                    else if (previousSymbol == OpenBracket)
                     {
                         maxNestingLevel--;
                     }
+
+                    previousSymbol = symbol;
                 }
                 else
                 {
+                    isExpressionCorrect = false;
                     break;
                 }
-
-                isExpressionCorrect = currentNestingLevel == 0;
             }
 
             if (isExpressionCorrect)
@@ -50,10 +52,4 @@
                 Console.WriteLine("Выражение не корректно");
         }
     }
-    //    Дана строка из символов '(' и ')'. Определить, является ли она корректным скобочным выражением.Определить максимальную глубину вложенности скобок.
-    //Пример “(()(()))” - строка корректная и максимум глубины равняется 3.
-    //Пример не верных строк: "(()", "())", ")(", "(()))(()"
-    //Для перебора строки по символам можно использовать цикл foreach, к примеру будет так foreach (var symbol in text) 
-    //Или цикл for(int currentNestingLevel = 0; currentNestingLevel<text.Length; currentNestingLevel++) и дальше обращаться к каждому символу внутри цикла как text[currentNestingLevel]
-    //Цикл нужен для перебора всех символов в строке.
 }
