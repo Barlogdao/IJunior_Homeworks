@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_17_Brackets\bin\Debug\net7.0\HomeWork_17_Brackets.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_17_Brackets\bin\Debug\net7.0\HomeWork_17_Brackets.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_17_Brackets\bin\Debug\net7.0\HomeWork_17_Brackets.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_17_Brackets\bin\Debug\net7.0\HomeWork_17_Brackets.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_17_Brackets\bin\Debug\net7.0\HomeWork_17_Brackets.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_17_Brackets\obj\Debug\net7.0\HomeWork_17_Brackets.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_17_Brackets\obj\Debug\net7.0\HomeWork_17_Brackets.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_17_Brackets\obj\Debug\net7.0\HomeWork_17_Brackets.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_17_Brackets\obj\Debug\net7.0\HomeWork_17_Brackets.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_17_Brackets\obj\Debug\net7.0\HomeWork_17_Brackets.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_17_Brackets\obj\Debug\net7.0\HomeWork_17_Brackets.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_17_Brackets\obj\Debug\net7.0\refint\HomeWork_17_Brackets.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_17_Brackets\obj\Debug\net7.0\HomeWork_17_Brackets.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_17_Brackets\obj\Debug\net7.0\HomeWork_17_Brackets.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_17_Brackets\obj\Debug\net7.0\ref\HomeWork_17_Brackets.dll
