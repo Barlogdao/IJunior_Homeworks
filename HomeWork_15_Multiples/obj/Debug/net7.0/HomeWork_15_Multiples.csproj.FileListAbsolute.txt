@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_15_Multiples\bin\Debug\net7.0\HomeWork_15_Multiples.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_15_Multiples\bin\Debug\net7.0\HomeWork_15_Multiples.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_15_Multiples\bin\Debug\net7.0\HomeWork_15_Multiples.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_15_Multiples\bin\Debug\net7.0\HomeWork_15_Multiples.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_15_Multiples\bin\Debug\net7.0\HomeWork_15_Multiples.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_15_Multiples\obj\Debug\net7.0\HomeWork_15_Multiples.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_15_Multiples\obj\Debug\net7.0\HomeWork_15_Multiples.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_15_Multiples\obj\Debug\net7.0\HomeWork_15_Multiples.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_15_Multiples\obj\Debug\net7.0\HomeWork_15_Multiples.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_15_Multiples\obj\Debug\net7.0\HomeWork_15_Multiples.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_15_Multiples\obj\Debug\net7.0\HomeWork_15_Multiples.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_15_Multiples\obj\Debug\net7.0\refint\HomeWork_15_Multiples.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_15_Multiples\obj\Debug\net7.0\HomeWork_15_Multiples.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_15_Multiples\obj\Debug\net7.0\HomeWork_15_Multiples.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_15_Multiples\obj\Debug\net7.0\ref\HomeWork_15_Multiples.dll
