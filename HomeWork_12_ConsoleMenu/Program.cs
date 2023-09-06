@@ -66,6 +66,7 @@
 
 
                     case CommandCapsLockCheck:
+
                         if (Console.CapsLock)
                             Console.WriteLine("CapsLock включен");
                         else
