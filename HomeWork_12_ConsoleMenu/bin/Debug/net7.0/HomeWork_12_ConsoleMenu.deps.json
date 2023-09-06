@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "HomeWork_12_ConsoleMenu/1.0.0": {
+        "runtime": {
+          "HomeWork_12_ConsoleMenu.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HomeWork_12_ConsoleMenu/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

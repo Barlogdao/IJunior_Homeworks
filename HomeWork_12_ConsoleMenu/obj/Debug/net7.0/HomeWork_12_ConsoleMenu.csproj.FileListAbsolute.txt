@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_12_ConsoleMenu\bin\Debug\net7.0\HomeWork_12_ConsoleMenu.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_12_ConsoleMenu\bin\Debug\net7.0\HomeWork_12_ConsoleMenu.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_12_ConsoleMenu\bin\Debug\net7.0\HomeWork_12_ConsoleMenu.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_12_ConsoleMenu\bin\Debug\net7.0\HomeWork_12_ConsoleMenu.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_12_ConsoleMenu\bin\Debug\net7.0\HomeWork_12_ConsoleMenu.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_12_ConsoleMenu\obj\Debug\net7.0\HomeWork_12_ConsoleMenu.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_12_ConsoleMenu\obj\Debug\net7.0\HomeWork_12_ConsoleMenu.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_12_ConsoleMenu\obj\Debug\net7.0\HomeWork_12_ConsoleMenu.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_12_ConsoleMenu\obj\Debug\net7.0\HomeWork_12_ConsoleMenu.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_12_ConsoleMenu\obj\Debug\net7.0\HomeWork_12_ConsoleMenu.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_12_ConsoleMenu\obj\Debug\net7.0\HomeWork_12_ConsoleMenu.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_12_ConsoleMenu\obj\Debug\net7.0\refint\HomeWork_12_ConsoleMenu.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_12_ConsoleMenu\obj\Debug\net7.0\HomeWork_12_ConsoleMenu.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_12_ConsoleMenu\obj\Debug\net7.0\HomeWork_12_ConsoleMenu.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_12_ConsoleMenu\obj\Debug\net7.0\ref\HomeWork_12_ConsoleMenu.dll
