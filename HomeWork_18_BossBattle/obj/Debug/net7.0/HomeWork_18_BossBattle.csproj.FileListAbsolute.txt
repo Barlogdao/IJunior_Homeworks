@@ -1,0 +1,15 @@
+E:\Хранилища\IJunior_Homeworks\HomeWork_18_BossBattle\obj\Debug\net7.0\HomeWork_18_BossBattle.csproj.AssemblyReference.cache
+E:\Хранилища\IJunior_Homeworks\HomeWork_18_BossBattle\obj\Debug\net7.0\HomeWork_18_BossBattle.GeneratedMSBuildEditorConfig.editorconfig
+E:\Хранилища\IJunior_Homeworks\HomeWork_18_BossBattle\obj\Debug\net7.0\HomeWork_18_BossBattle.AssemblyInfoInputs.cache
+E:\Хранилища\IJunior_Homeworks\HomeWork_18_BossBattle\obj\Debug\net7.0\HomeWork_18_BossBattle.AssemblyInfo.cs
+E:\Хранилища\IJunior_Homeworks\HomeWork_18_BossBattle\obj\Debug\net7.0\HomeWork_18_BossBattle.csproj.CoreCompileInputs.cache
+E:\Хранилища\IJunior_Homeworks\HomeWork_18_BossBattle\bin\Debug\net7.0\HomeWork_18_BossBattle.exe
+E:\Хранилища\IJunior_Homeworks\HomeWork_18_BossBattle\bin\Debug\net7.0\HomeWork_18_BossBattle.deps.json
+E:\Хранилища\IJunior_Homeworks\HomeWork_18_BossBattle\bin\Debug\net7.0\HomeWork_18_BossBattle.runtimeconfig.json
+E:\Хранилища\IJunior_Homeworks\HomeWork_18_BossBattle\bin\Debug\net7.0\HomeWork_18_BossBattle.dll
+E:\Хранилища\IJunior_Homeworks\HomeWork_18_BossBattle\bin\Debug\net7.0\HomeWork_18_BossBattle.pdb
+E:\Хранилища\IJunior_Homeworks\HomeWork_18_BossBattle\obj\Debug\net7.0\HomeWork_18_BossBattle.dll
+E:\Хранилища\IJunior_Homeworks\HomeWork_18_BossBattle\obj\Debug\net7.0\refint\HomeWork_18_BossBattle.dll
+E:\Хранилища\IJunior_Homeworks\HomeWork_18_BossBattle\obj\Debug\net7.0\HomeWork_18_BossBattle.pdb
+E:\Хранилища\IJunior_Homeworks\HomeWork_18_BossBattle\obj\Debug\net7.0\HomeWork_18_BossBattle.genruntimeconfig.cache
+E:\Хранилища\IJunior_Homeworks\HomeWork_18_BossBattle\obj\Debug\net7.0\ref\HomeWork_18_BossBattle.dll
