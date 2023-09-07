@@ -1,0 +1,15 @@
+E:\Хранилища\IJunior_Homeworks\HomeWork_19_RowsAndColumns\bin\Debug\net7.0\HomeWork_19_RowsAndColumns.exe
+E:\Хранилища\IJunior_Homeworks\HomeWork_19_RowsAndColumns\bin\Debug\net7.0\HomeWork_19_RowsAndColumns.deps.json
+E:\Хранилища\IJunior_Homeworks\HomeWork_19_RowsAndColumns\bin\Debug\net7.0\HomeWork_19_RowsAndColumns.runtimeconfig.json
+E:\Хранилища\IJunior_Homeworks\HomeWork_19_RowsAndColumns\bin\Debug\net7.0\HomeWork_19_RowsAndColumns.dll
+E:\Хранилища\IJunior_Homeworks\HomeWork_19_RowsAndColumns\bin\Debug\net7.0\HomeWork_19_RowsAndColumns.pdb
+E:\Хранилища\IJunior_Homeworks\HomeWork_19_RowsAndColumns\obj\Debug\net7.0\HomeWork_19_RowsAndColumns.csproj.AssemblyReference.cache
+E:\Хранилища\IJunior_Homeworks\HomeWork_19_RowsAndColumns\obj\Debug\net7.0\HomeWork_19_RowsAndColumns.GeneratedMSBuildEditorConfig.editorconfig
+E:\Хранилища\IJunior_Homeworks\HomeWork_19_RowsAndColumns\obj\Debug\net7.0\HomeWork_19_RowsAndColumns.AssemblyInfoInputs.cache
+E:\Хранилища\IJunior_Homeworks\HomeWork_19_RowsAndColumns\obj\Debug\net7.0\HomeWork_19_RowsAndColumns.AssemblyInfo.cs
+E:\Хранилища\IJunior_Homeworks\HomeWork_19_RowsAndColumns\obj\Debug\net7.0\HomeWork_19_RowsAndColumns.csproj.CoreCompileInputs.cache
+E:\Хранилища\IJunior_Homeworks\HomeWork_19_RowsAndColumns\obj\Debug\net7.0\HomeWork_19_RowsAndColumns.dll
+E:\Хранилища\IJunior_Homeworks\HomeWork_19_RowsAndColumns\obj\Debug\net7.0\refint\HomeWork_19_RowsAndColumns.dll
+E:\Хранилища\IJunior_Homeworks\HomeWork_19_RowsAndColumns\obj\Debug\net7.0\HomeWork_19_RowsAndColumns.pdb
+E:\Хранилища\IJunior_Homeworks\HomeWork_19_RowsAndColumns\obj\Debug\net7.0\HomeWork_19_RowsAndColumns.genruntimeconfig.cache
+E:\Хранилища\IJunior_Homeworks\HomeWork_19_RowsAndColumns\obj\Debug\net7.0\ref\HomeWork_19_RowsAndColumns.dll

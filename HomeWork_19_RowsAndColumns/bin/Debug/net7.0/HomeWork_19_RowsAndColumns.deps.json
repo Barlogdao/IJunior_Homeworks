@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "HomeWork_19_RowsAndColumns/1.0.0": {
+        "runtime": {
+          "HomeWork_19_RowsAndColumns.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HomeWork_19_RowsAndColumns/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

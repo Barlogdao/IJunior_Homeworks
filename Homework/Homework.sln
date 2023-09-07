@@ -31,13 +31,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_14_Password", "..\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_15_Multiples", "..\HomeWork_15_Multiples\HomeWork_15_Multiples.csproj", "{D89B08F1-73C3-47CB-A578-44414B244840}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_16_PowerOfTwo", "..\HomeWork_16_PowerOfTwo\HomeWork_16_PowerOfTwo.csproj", "{A23571FA-712C-4471-B780-09EE5667DFE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_16_PowerOfTwo", "..\HomeWork_16_PowerOfTwo\HomeWork_16_PowerOfTwo.csproj", "{A23571FA-712C-4471-B780-09EE5667DFE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_17_Brackets", "..\HomeWork_17_Brackets\HomeWork_17_Brackets.csproj", "{ACB48382-8A03-421F-806E-181DFAC61233}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_17_Brackets", "..\HomeWork_17_Brackets\HomeWork_17_Brackets.csproj", "{ACB48382-8A03-421F-806E-181DFAC61233}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_12_ConsoleMenu", "..\HomeWork_12_ConsoleMenu\HomeWork_12_ConsoleMenu.csproj", "{6BAAD34B-7035-4B81-8513-7F4232E2FA47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_12_ConsoleMenu", "..\HomeWork_12_ConsoleMenu\HomeWork_12_ConsoleMenu.csproj", "{6BAAD34B-7035-4B81-8513-7F4232E2FA47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_18_BossBattle", "..\HomeWork_18_BossBattle\HomeWork_18_BossBattle.csproj", "{5CA68818-5AD7-48C2-A62E-8943C00BB7DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_18_BossBattle", "..\HomeWork_18_BossBattle\HomeWork_18_BossBattle.csproj", "{5CA68818-5AD7-48C2-A62E-8943C00BB7DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_19_RowsAndColumns", "..\HomeWork_19_RowsAndColumns\HomeWork_19_RowsAndColumns.csproj", "{45FE8F65-37F5-4372-9C2A-B344C51C7930}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{5CA68818-5AD7-48C2-A62E-8943C00BB7DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CA68818-5AD7-48C2-A62E-8943C00BB7DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CA68818-5AD7-48C2-A62E-8943C00BB7DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45FE8F65-37F5-4372-9C2A-B344C51C7930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45FE8F65-37F5-4372-9C2A-B344C51C7930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45FE8F65-37F5-4372-9C2A-B344C51C7930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45FE8F65-37F5-4372-9C2A-B344C51C7930}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
