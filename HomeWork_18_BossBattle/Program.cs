@@ -16,8 +16,8 @@
             int boneSpearDamage = 30;
             int drainLifeAmount = 20;
             int acidRainDamage = 50;
-            bool damageResistance = false;
-            bool acidResistance = false;
+            bool hasDamageResistance = false;
+            bool hasAcidResistance = false;
             string optionsMessage = "Используйте ваши заклинания:" +
                 $"\n [{SpellBoneSpear}] - Костяное копье. Наносит врагу {boneSpearDamage} урона." +
                 $"\n [{SpellDrainLife}] - Вытягивание жизни. Наносит врагу {drainLifeAmount} урона и лечит вас на {drainLifeAmount}." +
@@ -48,16 +48,16 @@
                         break;
 
                     case SpellAcidShield:
-                        damageResistance = true;
-                        acidResistance = true;
+                        hasDamageResistance = true;
+                        hasAcidResistance = true;
                         break;
 
                     case SpellAcidRain:
                         bossHealth -= acidRainDamage;
 
-                        if (acidResistance == true)
+                        if (hasAcidResistance == true)
                         {
-                            acidResistance = false;
+                            hasAcidResistance = false;
                             Console.WriteLine("Ваша защита от кислотного урона закончилась!");
                         }
                         else
@@ -76,9 +76,9 @@
                 {
                     break;
                 }
-                if (damageResistance == true)
+                if (hasDamageResistance == true)
                 {
-                    damageResistance = false;
+                    hasDamageResistance = false;
                     Console.WriteLine("Враг снял вашу защиту от физического урона!");
                 }
                 else
