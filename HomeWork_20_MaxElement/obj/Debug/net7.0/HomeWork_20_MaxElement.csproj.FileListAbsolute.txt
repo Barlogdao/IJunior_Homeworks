@@ -1,0 +1,15 @@
+E:\Хранилища\IJunior_Homeworks\HomeWork_20_MaxElement\bin\Debug\net7.0\HomeWork_20_MaxElement.exe
+E:\Хранилища\IJunior_Homeworks\HomeWork_20_MaxElement\bin\Debug\net7.0\HomeWork_20_MaxElement.deps.json
+E:\Хранилища\IJunior_Homeworks\HomeWork_20_MaxElement\bin\Debug\net7.0\HomeWork_20_MaxElement.runtimeconfig.json
+E:\Хранилища\IJunior_Homeworks\HomeWork_20_MaxElement\bin\Debug\net7.0\HomeWork_20_MaxElement.dll
+E:\Хранилища\IJunior_Homeworks\HomeWork_20_MaxElement\bin\Debug\net7.0\HomeWork_20_MaxElement.pdb
+E:\Хранилища\IJunior_Homeworks\HomeWork_20_MaxElement\obj\Debug\net7.0\HomeWork_20_MaxElement.csproj.AssemblyReference.cache
+E:\Хранилища\IJunior_Homeworks\HomeWork_20_MaxElement\obj\Debug\net7.0\HomeWork_20_MaxElement.GeneratedMSBuildEditorConfig.editorconfig
+E:\Хранилища\IJunior_Homeworks\HomeWork_20_MaxElement\obj\Debug\net7.0\HomeWork_20_MaxElement.AssemblyInfoInputs.cache
+E:\Хранилища\IJunior_Homeworks\HomeWork_20_MaxElement\obj\Debug\net7.0\HomeWork_20_MaxElement.AssemblyInfo.cs
+E:\Хранилища\IJunior_Homeworks\HomeWork_20_MaxElement\obj\Debug\net7.0\HomeWork_20_MaxElement.csproj.CoreCompileInputs.cache
+E:\Хранилища\IJunior_Homeworks\HomeWork_20_MaxElement\obj\Debug\net7.0\HomeWork_20_MaxElement.dll
+E:\Хранилища\IJunior_Homeworks\HomeWork_20_MaxElement\obj\Debug\net7.0\refint\HomeWork_20_MaxElement.dll
+E:\Хранилища\IJunior_Homeworks\HomeWork_20_MaxElement\obj\Debug\net7.0\HomeWork_20_MaxElement.pdb
+E:\Хранилища\IJunior_Homeworks\HomeWork_20_MaxElement\obj\Debug\net7.0\HomeWork_20_MaxElement.genruntimeconfig.cache
+E:\Хранилища\IJunior_Homeworks\HomeWork_20_MaxElement\obj\Debug\net7.0\ref\HomeWork_20_MaxElement.dll

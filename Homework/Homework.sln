@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_12_ConsoleMenu", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_18_BossBattle", "..\HomeWork_18_BossBattle\HomeWork_18_BossBattle.csproj", "{5CA68818-5AD7-48C2-A62E-8943C00BB7DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_19_RowsAndColumns", "..\HomeWork_19_RowsAndColumns\HomeWork_19_RowsAndColumns.csproj", "{45FE8F65-37F5-4372-9C2A-B344C51C7930}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_19_RowsAndColumns", "..\HomeWork_19_RowsAndColumns\HomeWork_19_RowsAndColumns.csproj", "{45FE8F65-37F5-4372-9C2A-B344C51C7930}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_20_MaxElement", "..\HomeWork_20_MaxElement\HomeWork_20_MaxElement.csproj", "{16B1B6C2-4F2F-4B64-9971-4FC1FD24C4DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{45FE8F65-37F5-4372-9C2A-B344C51C7930}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45FE8F65-37F5-4372-9C2A-B344C51C7930}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45FE8F65-37F5-4372-9C2A-B344C51C7930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B1B6C2-4F2F-4B64-9971-4FC1FD24C4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B1B6C2-4F2F-4B64-9971-4FC1FD24C4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B1B6C2-4F2F-4B64-9971-4FC1FD24C4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B1B6C2-4F2F-4B64-9971-4FC1FD24C4DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
