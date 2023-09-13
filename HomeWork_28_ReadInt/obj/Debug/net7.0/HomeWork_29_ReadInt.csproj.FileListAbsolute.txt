@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_ReadInt\bin\Debug\net7.0\HomeWork_29_ReadInt.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_ReadInt\bin\Debug\net7.0\HomeWork_29_ReadInt.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_ReadInt\bin\Debug\net7.0\HomeWork_29_ReadInt.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_ReadInt\bin\Debug\net7.0\HomeWork_29_ReadInt.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_ReadInt\bin\Debug\net7.0\HomeWork_29_ReadInt.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_ReadInt\obj\Debug\net7.0\HomeWork_29_ReadInt.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_ReadInt\obj\Debug\net7.0\HomeWork_29_ReadInt.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_ReadInt\obj\Debug\net7.0\HomeWork_29_ReadInt.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_ReadInt\obj\Debug\net7.0\HomeWork_29_ReadInt.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_ReadInt\obj\Debug\net7.0\HomeWork_29_ReadInt.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_ReadInt\obj\Debug\net7.0\HomeWork_29_ReadInt.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_ReadInt\obj\Debug\net7.0\refint\HomeWork_29_ReadInt.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_ReadInt\obj\Debug\net7.0\HomeWork_29_ReadInt.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_ReadInt\obj\Debug\net7.0\HomeWork_29_ReadInt.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_ReadInt\obj\Debug\net7.0\ref\HomeWork_29_ReadInt.dll

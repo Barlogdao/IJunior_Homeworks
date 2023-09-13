@@ -41,7 +41,7 @@
                         break;
 
                     case CommandFindProfile:
-                        FindProfile(ref personNameDatabase, ref personRoleDatabase);
+                        FindProfile(personNameDatabase, personRoleDatabase);
                         break;
 
                     case CommandExit:
@@ -75,10 +75,21 @@
 
         private static void AddProfileToDataBase(ref string[] personNameDatabase, ref string[] personRoleDatabase, string personName, string personRole)
         {
-            Array.Resize(ref personNameDatabase, personNameDatabase.Length + 1);
-            personNameDatabase[^1] = personName;
-            Array.Resize(ref personRoleDatabase, personRoleDatabase.Length + 1);
-            personRoleDatabase[^1] = personRole;
+            personNameDatabase = AppendRecordToDatabase(personNameDatabase, personName);
+            personRoleDatabase = AppendRecordToDatabase(personRoleDatabase, personRole);
+        }
+
+        private static string[] AppendRecordToDatabase(string[] database, string record)
+        {
+            string[] tempDatabase = new string[database.Length + 1];
+
+            for (int i = 0; i < database.Length; i++)
+            {
+                tempDatabase[i] = database[i];
+            }
+
+            tempDatabase[^1] = record;
+            return tempDatabase;
         }
 
         private static void ShowAllProfiles(string[] personNameDatabase, string[] personRoleDatabase)
@@ -126,24 +137,27 @@
 
         private static void DeleteProfileFromDatabase(ref string[] personNameDatabase, ref string[] personRoleDatabase, int indexForDelete)
         {
-            string[] tempPersonNameDatabase = new string[personNameDatabase.Length - 1];
-            string[] tempPersonRoleDatabase = new string[personRoleDatabase.Length - 1];
+            personNameDatabase = DeleteRecordFromDatabase(personNameDatabase, indexForDelete);
+            personRoleDatabase = DeleteRecordFromDatabase(personRoleDatabase, indexForDelete);
+        }
 
-            for (int oldIndex = 0, newIndex = 0; oldIndex < personNameDatabase.Length; oldIndex++)
+        private static string[] DeleteRecordFromDatabase(string[] database, int indexForDelete)
+        {
+            string[] tempDatabase = new string[database.Length - 1];
+
+            for (int oldIndex = 0, newIndex = 0; oldIndex < database.Length; oldIndex++)
             {
                 if (oldIndex == indexForDelete)
                     continue;
 
-                tempPersonNameDatabase[newIndex] = personNameDatabase[oldIndex];
-                tempPersonRoleDatabase[newIndex] = personRoleDatabase[oldIndex];
+                tempDatabase[newIndex] = database[oldIndex];
                 newIndex++;
             }
+            
+            return tempDatabase;
+        } 
 
-            personNameDatabase = tempPersonNameDatabase;
-            personRoleDatabase = tempPersonRoleDatabase;
-        }
-
-        private static void FindProfile(ref string[] personNameDatabase, ref string[] personRoleDatabase)
+        private static void FindProfile(string[] personNameDatabase, string[] personRoleDatabase)
         {
             string inputLastName = GetInput("Введите фамилию");
             int foundProfilesCounter = 0;
