@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_24_NumbersSorting\bin\Debug\net7.0\HomeWork_24_NumbersSorting.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_24_NumbersSorting\bin\Debug\net7.0\HomeWork_24_NumbersSorting.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_24_NumbersSorting\bin\Debug\net7.0\HomeWork_24_NumbersSorting.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_24_NumbersSorting\bin\Debug\net7.0\HomeWork_24_NumbersSorting.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_24_NumbersSorting\bin\Debug\net7.0\HomeWork_24_NumbersSorting.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_24_NumbersSorting\obj\Debug\net7.0\HomeWork_24_NumbersSorting.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_24_NumbersSorting\obj\Debug\net7.0\HomeWork_24_NumbersSorting.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_24_NumbersSorting\obj\Debug\net7.0\HomeWork_24_NumbersSorting.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_24_NumbersSorting\obj\Debug\net7.0\HomeWork_24_NumbersSorting.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_24_NumbersSorting\obj\Debug\net7.0\HomeWork_24_NumbersSorting.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_24_NumbersSorting\obj\Debug\net7.0\HomeWork_24_NumbersSorting.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_24_NumbersSorting\obj\Debug\net7.0\refint\HomeWork_24_NumbersSorting.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_24_NumbersSorting\obj\Debug\net7.0\HomeWork_24_NumbersSorting.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_24_NumbersSorting\obj\Debug\net7.0\HomeWork_24_NumbersSorting.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_24_NumbersSorting\obj\Debug\net7.0\ref\HomeWork_24_NumbersSorting.dll

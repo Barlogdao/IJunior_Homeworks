@@ -11,7 +11,9 @@
             const string CommandCapsLockCheck = "5";
             const string CommandExit = "0";
 
-            while (true)
+            string input = "";
+
+            while (input != CommandExit)
             {
                 Console.WriteLine("\nВыберите команду:" +
                     $"\n [{CommandKilometersToMiles}] - перевести километры в мили" +
@@ -22,7 +24,7 @@
                     $"\n [{CommandExit}] - выход");
 
                 Console.Write("Введите команду: ");
-                string input = Console.ReadLine();
+                input = Console.ReadLine();
 
                 switch (input)
                 {
@@ -49,7 +51,6 @@
                     case CommandPalindromCheck:
                         Console.Write("Введите слово: ");
                         string word = Console.ReadLine().ToLower();
-
                         string reversedWord = "";
 
                         for (int i = word.Length-1; i >= 0; i--)
@@ -61,24 +62,20 @@
                             Console.WriteLine("Это палиндром");
                         else
                             Console.WriteLine("Это не палиндром");
-
                         break;
 
-
                     case CommandCapsLockCheck:
-
                         if (Console.CapsLock)
                             Console.WriteLine("CapsLock включен");
                         else
                             Console.WriteLine("CapsLock выключен");
-
                         break;
 
                     case CommandExit:
-                        return;
+                        break;
 
                     default:
-                        Console.WriteLine("Невреная команда!");
+                        Console.WriteLine("Невереная команда!");
                         break;
                 }
             }

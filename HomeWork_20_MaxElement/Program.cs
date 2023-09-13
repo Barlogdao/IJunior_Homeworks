@@ -16,7 +16,8 @@
                 }
             }
 
-            int maxValue = 0;
+            int maxValue = int.MinValue;
+            int valueForReplace = 0;
 
             foreach (int value in matrix)
             {
@@ -24,7 +25,7 @@
                     maxValue = value;
             }
 
-            Console.WriteLine($"Наибольшие элемент: {maxValue}");
+            Console.WriteLine($"Наибольший элемент: {maxValue}");
             Console.WriteLine("\n" + "Начальная матрица матрица:");
 
             for (int i = 0; i < matrix.GetLength(0); i++)
@@ -44,9 +45,9 @@
                 for (int j = 0; j < matrix.GetLength(1); j++)
                 {
                     if (maxValue == matrix[i, j])
-                        Console.Write(0 + "\t");
-                    else
-                        Console.Write(matrix[i, j] + "\t");
+                        matrix[i, j] = valueForReplace;
+
+                    Console.Write(matrix[i, j] + "\t");
                 }
 
                 Console.Write("\n");

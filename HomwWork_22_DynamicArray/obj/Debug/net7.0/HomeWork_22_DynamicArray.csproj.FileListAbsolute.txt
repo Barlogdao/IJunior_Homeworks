@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomwWork_22_DynamicArray\bin\Debug\net7.0\HomeWork_22_DynamicArray.exe
+D:\ProjectsU\IJunior_Homeworks\HomwWork_22_DynamicArray\bin\Debug\net7.0\HomeWork_22_DynamicArray.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomwWork_22_DynamicArray\bin\Debug\net7.0\HomeWork_22_DynamicArray.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomwWork_22_DynamicArray\bin\Debug\net7.0\HomeWork_22_DynamicArray.dll
+D:\ProjectsU\IJunior_Homeworks\HomwWork_22_DynamicArray\bin\Debug\net7.0\HomeWork_22_DynamicArray.pdb
+D:\ProjectsU\IJunior_Homeworks\HomwWork_22_DynamicArray\obj\Debug\net7.0\HomeWork_22_DynamicArray.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomwWork_22_DynamicArray\obj\Debug\net7.0\HomeWork_22_DynamicArray.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomwWork_22_DynamicArray\obj\Debug\net7.0\HomeWork_22_DynamicArray.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomwWork_22_DynamicArray\obj\Debug\net7.0\HomeWork_22_DynamicArray.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomwWork_22_DynamicArray\obj\Debug\net7.0\HomeWork_22_DynamicArray.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomwWork_22_DynamicArray\obj\Debug\net7.0\HomeWork_22_DynamicArray.dll
+D:\ProjectsU\IJunior_Homeworks\HomwWork_22_DynamicArray\obj\Debug\net7.0\refint\HomeWork_22_DynamicArray.dll
+D:\ProjectsU\IJunior_Homeworks\HomwWork_22_DynamicArray\obj\Debug\net7.0\HomeWork_22_DynamicArray.pdb
+D:\ProjectsU\IJunior_Homeworks\HomwWork_22_DynamicArray\obj\Debug\net7.0\HomeWork_22_DynamicArray.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomwWork_22_DynamicArray\obj\Debug\net7.0\ref\HomeWork_22_DynamicArray.dll

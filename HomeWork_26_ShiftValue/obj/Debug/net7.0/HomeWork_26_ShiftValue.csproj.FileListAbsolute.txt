@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_26_ShiftValue\bin\Debug\net7.0\HomeWork_26_ShiftValue.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_26_ShiftValue\bin\Debug\net7.0\HomeWork_26_ShiftValue.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_26_ShiftValue\bin\Debug\net7.0\HomeWork_26_ShiftValue.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_26_ShiftValue\bin\Debug\net7.0\HomeWork_26_ShiftValue.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_26_ShiftValue\bin\Debug\net7.0\HomeWork_26_ShiftValue.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_26_ShiftValue\obj\Debug\net7.0\HomeWork_26_ShiftValue.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_26_ShiftValue\obj\Debug\net7.0\HomeWork_26_ShiftValue.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_26_ShiftValue\obj\Debug\net7.0\HomeWork_26_ShiftValue.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_26_ShiftValue\obj\Debug\net7.0\HomeWork_26_ShiftValue.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_26_ShiftValue\obj\Debug\net7.0\HomeWork_26_ShiftValue.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_26_ShiftValue\obj\Debug\net7.0\HomeWork_26_ShiftValue.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_26_ShiftValue\obj\Debug\net7.0\refint\HomeWork_26_ShiftValue.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_26_ShiftValue\obj\Debug\net7.0\HomeWork_26_ShiftValue.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_26_ShiftValue\obj\Debug\net7.0\HomeWork_26_ShiftValue.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_26_ShiftValue\obj\Debug\net7.0\ref\HomeWork_26_ShiftValue.dll

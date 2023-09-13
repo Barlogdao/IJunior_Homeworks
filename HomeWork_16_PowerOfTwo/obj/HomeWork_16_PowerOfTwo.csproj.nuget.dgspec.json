@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_16_PowerOfTwo\\HomeWork_16_PowerOfTwo.csproj": {}
+    "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_16_PowerOfTwo\\HomeWork_16_PowerOfTwo.csproj": {}
   },
   "projects": {
-    "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_16_PowerOfTwo\\HomeWork_16_PowerOfTwo.csproj": {
+    "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_16_PowerOfTwo\\HomeWork_16_PowerOfTwo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_16_PowerOfTwo\\HomeWork_16_PowerOfTwo.csproj",
+        "projectUniqueName": "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_16_PowerOfTwo\\HomeWork_16_PowerOfTwo.csproj",
         "projectName": "HomeWork_16_PowerOfTwo",
-        "projectPath": "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_16_PowerOfTwo\\HomeWork_16_PowerOfTwo.csproj",
+        "projectPath": "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_16_PowerOfTwo\\HomeWork_16_PowerOfTwo.csproj",
         "packagesPath": "C:\\Users\\Barlo\\.nuget\\packages\\",
-        "outputPath": "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_16_PowerOfTwo\\obj\\",
+        "outputPath": "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_16_PowerOfTwo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\VSCash\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Barlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

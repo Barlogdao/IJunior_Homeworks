@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_25_Split\bin\Debug\net7.0\HomeWork_25_Split.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_25_Split\bin\Debug\net7.0\HomeWork_25_Split.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_25_Split\bin\Debug\net7.0\HomeWork_25_Split.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_25_Split\bin\Debug\net7.0\HomeWork_25_Split.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_25_Split\bin\Debug\net7.0\HomeWork_25_Split.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_25_Split\obj\Debug\net7.0\HomeWork_25_Split.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_25_Split\obj\Debug\net7.0\HomeWork_25_Split.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_25_Split\obj\Debug\net7.0\HomeWork_25_Split.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_25_Split\obj\Debug\net7.0\HomeWork_25_Split.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_25_Split\obj\Debug\net7.0\HomeWork_25_Split.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_25_Split\obj\Debug\net7.0\HomeWork_25_Split.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_25_Split\obj\Debug\net7.0\refint\HomeWork_25_Split.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_25_Split\obj\Debug\net7.0\HomeWork_25_Split.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_25_Split\obj\Debug\net7.0\HomeWork_25_Split.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_25_Split\obj\Debug\net7.0\ref\HomeWork_25_Split.dll

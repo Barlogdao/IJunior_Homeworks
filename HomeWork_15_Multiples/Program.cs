@@ -9,12 +9,16 @@
             int maxValue = 27;
             int stepNumber = random.Next(minValue,maxValue +1);
 
+            int minNaturalNumber = 100;
             int maxNaturalNumber = 999;
             int naturalNumbersCount = 0;
 
             for (int i = stepNumber; i <= maxNaturalNumber ; i+= stepNumber)
             {
-                naturalNumbersCount++;
+                if (i >= minNaturalNumber)
+                {
+                    naturalNumbersCount ++;
+                }
             }
 
             Console.WriteLine(stepNumber);

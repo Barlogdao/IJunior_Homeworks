@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_21_LocalMaximum\bin\Debug\net7.0\HomeWork_21_LocalMaximum.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_21_LocalMaximum\bin\Debug\net7.0\HomeWork_21_LocalMaximum.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_21_LocalMaximum\bin\Debug\net7.0\HomeWork_21_LocalMaximum.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_21_LocalMaximum\bin\Debug\net7.0\HomeWork_21_LocalMaximum.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_21_LocalMaximum\bin\Debug\net7.0\HomeWork_21_LocalMaximum.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_21_LocalMaximum\obj\Debug\net7.0\HomeWork_21_LocalMaximum.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_21_LocalMaximum\obj\Debug\net7.0\HomeWork_21_LocalMaximum.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_21_LocalMaximum\obj\Debug\net7.0\HomeWork_21_LocalMaximum.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_21_LocalMaximum\obj\Debug\net7.0\HomeWork_21_LocalMaximum.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_21_LocalMaximum\obj\Debug\net7.0\HomeWork_21_LocalMaximum.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_21_LocalMaximum\obj\Debug\net7.0\HomeWork_21_LocalMaximum.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_21_LocalMaximum\obj\Debug\net7.0\refint\HomeWork_21_LocalMaximum.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_21_LocalMaximum\obj\Debug\net7.0\HomeWork_21_LocalMaximum.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_21_LocalMaximum\obj\Debug\net7.0\HomeWork_21_LocalMaximum.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_21_LocalMaximum\obj\Debug\net7.0\ref\HomeWork_21_LocalMaximum.dll

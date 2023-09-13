@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_27_HrAccounting\bin\Debug\net7.0\HomeWork_27_HrAccounting.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_27_HrAccounting\bin\Debug\net7.0\HomeWork_27_HrAccounting.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_27_HrAccounting\bin\Debug\net7.0\HomeWork_27_HrAccounting.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_27_HrAccounting\bin\Debug\net7.0\HomeWork_27_HrAccounting.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_27_HrAccounting\bin\Debug\net7.0\HomeWork_27_HrAccounting.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_27_HrAccounting\obj\Debug\net7.0\HomeWork_27_HrAccounting.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_27_HrAccounting\obj\Debug\net7.0\HomeWork_27_HrAccounting.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_27_HrAccounting\obj\Debug\net7.0\HomeWork_27_HrAccounting.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_27_HrAccounting\obj\Debug\net7.0\HomeWork_27_HrAccounting.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_27_HrAccounting\obj\Debug\net7.0\HomeWork_27_HrAccounting.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_27_HrAccounting\obj\Debug\net7.0\HomeWork_27_HrAccounting.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_27_HrAccounting\obj\Debug\net7.0\refint\HomeWork_27_HrAccounting.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_27_HrAccounting\obj\Debug\net7.0\HomeWork_27_HrAccounting.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_27_HrAccounting\obj\Debug\net7.0\HomeWork_27_HrAccounting.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_27_HrAccounting\obj\Debug\net7.0\ref\HomeWork_27_HrAccounting.dll

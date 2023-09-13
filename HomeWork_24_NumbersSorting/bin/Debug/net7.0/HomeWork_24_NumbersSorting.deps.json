@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "HomeWork_24_NumbersSorting/1.0.0": {
+        "runtime": {
+          "HomeWork_24_NumbersSorting.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HomeWork_24_NumbersSorting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
