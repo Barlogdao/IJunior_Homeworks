@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_30_BraveNewWorld\\HomeWork_30_BraveNewWorld.csproj": {}
+    "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_30_BraveNewWorld\\HomeWork_30_BraveNewWorld.csproj": {}
   },
   "projects": {
-    "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_30_BraveNewWorld\\HomeWork_30_BraveNewWorld.csproj": {
+    "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_30_BraveNewWorld\\HomeWork_30_BraveNewWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_30_BraveNewWorld\\HomeWork_30_BraveNewWorld.csproj",
+        "projectUniqueName": "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_30_BraveNewWorld\\HomeWork_30_BraveNewWorld.csproj",
         "projectName": "HomeWork_30_BraveNewWorld",
-        "projectPath": "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_30_BraveNewWorld\\HomeWork_30_BraveNewWorld.csproj",
+        "projectPath": "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_30_BraveNewWorld\\HomeWork_30_BraveNewWorld.csproj",
         "packagesPath": "C:\\Users\\Barlo\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_30_BraveNewWorld\\obj\\",
+        "outputPath": "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_30_BraveNewWorld\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\VSCash\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Barlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -3,65 +3,65 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework", "Homework.csproj", "{4DE557C4-73FE-450A-83F4-EE9A287062E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_001", "Homework_001.csproj", "{4DE557C4-73FE-450A-83F4-EE9A287062E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_2", "..\HomeWork_2\HomeWork_2.csproj", "{426E7DD8-A506-4470-BC66-0D3A1B762021}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_002", "..\HomeWork_2\HomeWork_002.csproj", "{426E7DD8-A506-4470-BC66-0D3A1B762021}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_4", "..\HomeWork_4\HomeWork_4.csproj", "{0A3FFC1A-5F71-41D5-85B5-5AEB33B64732}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_004", "..\HomeWork_4\HomeWork_004.csproj", "{0A3FFC1A-5F71-41D5-85B5-5AEB33B64732}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_3", "..\HomeWork_3\HomeWork_3.csproj", "{C858D8C5-0365-415C-AEB6-9651A0D143E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_003", "..\HomeWork_3\HomeWork_003.csproj", "{C858D8C5-0365-415C-AEB6-9651A0D143E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_5", "..\HomeWork_5\HomeWork_5.csproj", "{83237B81-C641-4EA9-A65A-FC4916E2684F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_005", "..\HomeWork_5\HomeWork_005.csproj", "{83237B81-C641-4EA9-A65A-FC4916E2684F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_6", "..\HomeWork_6\HomeWork_6.csproj", "{5E8A691D-227A-4DB1-856C-AF4218BEA869}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_006", "..\HomeWork_6\HomeWork_006.csproj", "{5E8A691D-227A-4DB1-856C-AF4218BEA869}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_7", "..\HomeWork_7\HomeWork_7.csproj", "{502518F9-78E6-44A4-8A6D-3DB91F955192}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_007", "..\HomeWork_7\HomeWork_007.csproj", "{502518F9-78E6-44A4-8A6D-3DB91F955192}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_8", "..\HomeWork_8\HomeWork_8.csproj", "{1458EB56-A686-4293-994F-EE7697CB0975}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_008", "..\HomeWork_8\HomeWork_008.csproj", "{1458EB56-A686-4293-994F-EE7697CB0975}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_9", "..\HomeWork_9\HomeWork_9.csproj", "{0B727122-74A8-44E7-8904-7AB2E3808813}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_009", "..\HomeWork_9\HomeWork_009.csproj", "{0B727122-74A8-44E7-8904-7AB2E3808813}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_10", "..\HomeWork_10\HomeWork_10.csproj", "{14A2B2AC-B2A4-4A84-A1BC-8D19D8E50577}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_010", "..\HomeWork_10\HomeWork_010.csproj", "{14A2B2AC-B2A4-4A84-A1BC-8D19D8E50577}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_11", "..\HomeWork_11_\HomeWork_11.csproj", "{9345A16B-0E35-4E8D-9861-0A37369003B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_011", "..\HomeWork_11_\HomeWork_011.csproj", "{9345A16B-0E35-4E8D-9861-0A37369003B6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_13", "..\HomeWork_13\HomeWork_13.csproj", "{4DDC70F1-48E3-4C76-8BEF-D27C65DDE3ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_013", "..\HomeWork_13\HomeWork_013.csproj", "{4DDC70F1-48E3-4C76-8BEF-D27C65DDE3ED}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_14_Password", "..\HomeWork_14_Password\HomeWork_14_Password.csproj", "{BC1E49E0-8196-4D42-A593-7831F4830A48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_014_Password", "..\HomeWork_14_Password\HomeWork_014_Password.csproj", "{BC1E49E0-8196-4D42-A593-7831F4830A48}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_15_Multiples", "..\HomeWork_15_Multiples\HomeWork_15_Multiples.csproj", "{D89B08F1-73C3-47CB-A578-44414B244840}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_015_Multiples", "..\HomeWork_15_Multiples\HomeWork_015_Multiples.csproj", "{D89B08F1-73C3-47CB-A578-44414B244840}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_16_PowerOfTwo", "..\HomeWork_16_PowerOfTwo\HomeWork_16_PowerOfTwo.csproj", "{A23571FA-712C-4471-B780-09EE5667DFE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_016_PowerOfTwo", "..\HomeWork_16_PowerOfTwo\HomeWork_016_PowerOfTwo.csproj", "{A23571FA-712C-4471-B780-09EE5667DFE2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_17_Brackets", "..\HomeWork_17_Brackets\HomeWork_17_Brackets.csproj", "{ACB48382-8A03-421F-806E-181DFAC61233}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_017_Brackets", "..\HomeWork_17_Brackets\HomeWork_017_Brackets.csproj", "{ACB48382-8A03-421F-806E-181DFAC61233}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_12_ConsoleMenu", "..\HomeWork_12_ConsoleMenu\HomeWork_12_ConsoleMenu.csproj", "{6BAAD34B-7035-4B81-8513-7F4232E2FA47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_012_ConsoleMenu", "..\HomeWork_12_ConsoleMenu\HomeWork_012_ConsoleMenu.csproj", "{6BAAD34B-7035-4B81-8513-7F4232E2FA47}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_18_BossBattle", "..\HomeWork_18_BossBattle\HomeWork_18_BossBattle.csproj", "{5CA68818-5AD7-48C2-A62E-8943C00BB7DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_018_BossBattle", "..\HomeWork_18_BossBattle\HomeWork_018_BossBattle.csproj", "{5CA68818-5AD7-48C2-A62E-8943C00BB7DB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_19_RowsAndColumns", "..\HomeWork_19_RowsAndColumns\HomeWork_19_RowsAndColumns.csproj", "{45FE8F65-37F5-4372-9C2A-B344C51C7930}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_019_RowsAndColumns", "..\HomeWork_19_RowsAndColumns\HomeWork_019_RowsAndColumns.csproj", "{45FE8F65-37F5-4372-9C2A-B344C51C7930}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_20_MaxElement", "..\HomeWork_20_MaxElement\HomeWork_20_MaxElement.csproj", "{16B1B6C2-4F2F-4B64-9971-4FC1FD24C4DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_020_MaxElement", "..\HomeWork_20_MaxElement\HomeWork_020_MaxElement.csproj", "{16B1B6C2-4F2F-4B64-9971-4FC1FD24C4DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_21_LocalMaximum", "..\HomeWork_21_LocalMaximum\HomeWork_21_LocalMaximum.csproj", "{E83E7B91-2D06-4ADC-B2BD-EAB11E905875}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_021_LocalMaximum", "..\HomeWork_21_LocalMaximum\HomeWork_021_LocalMaximum.csproj", "{E83E7B91-2D06-4ADC-B2BD-EAB11E905875}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_22_DynamicArray", "..\HomwWork_22_DynamicArray\HomeWork_22_DynamicArray.csproj", "{2A07E534-DEB9-4C6E-A12F-A670DCCCA5FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_022_DynamicArray", "..\HomwWork_22_DynamicArray\HomeWork_022_DynamicArray.csproj", "{2A07E534-DEB9-4C6E-A12F-A670DCCCA5FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_23_RepeatingSubArray", "..\HomeWork_23_RepeatingSubArray\HomeWork_23_RepeatingSubArray.csproj", "{86AC7B14-7FA5-4922-A829-33E3689F4E1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_023_RepeatingSubArray", "..\HomeWork_23_RepeatingSubArray\HomeWork_023_RepeatingSubArray.csproj", "{86AC7B14-7FA5-4922-A829-33E3689F4E1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_24_NumbersSorting", "..\HomeWork_24_NumbersSorting\HomeWork_24_NumbersSorting.csproj", "{D364C365-92F8-4D9E-B805-5C0581CD9261}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_024_NumbersSorting", "..\HomeWork_24_NumbersSorting\HomeWork_024_NumbersSorting.csproj", "{D364C365-92F8-4D9E-B805-5C0581CD9261}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_25_Split", "..\HomeWork_25_Split\HomeWork_25_Split.csproj", "{F4A2D2A1-73EE-41AB-8006-A7E8ADCE6B13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_025_Split", "..\HomeWork_25_Split\HomeWork_025_Split.csproj", "{F4A2D2A1-73EE-41AB-8006-A7E8ADCE6B13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_26_ShiftValue", "..\HomeWork_26_ShiftValue\HomeWork_26_ShiftValue.csproj", "{F2020F17-54F3-4CC2-A61D-ED150344C191}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_026_ShiftValue", "..\HomeWork_26_ShiftValue\HomeWork_026_ShiftValue.csproj", "{F2020F17-54F3-4CC2-A61D-ED150344C191}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_27_HrDatabase", "..\HomeWork_27_HrAccounting\HomeWork_27_HrDatabase.csproj", "{DAE153AF-762D-4DC8-A953-C6DD0637BC4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_027_HrDatabase", "..\HomeWork_27_HrAccounting\HomeWork_027_HrDatabase.csproj", "{DAE153AF-762D-4DC8-A953-C6DD0637BC4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_28_UIElement", "..\HomeWork_28_UIElement\HomeWork_28_UIElement.csproj", "{9CD44FDE-FCBB-4346-B696-D9869777C47A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_028_UIElement", "..\HomeWork_28_UIElement\HomeWork_028_UIElement.csproj", "{9CD44FDE-FCBB-4346-B696-D9869777C47A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_29_ReadInt", "..\HomeWork_28_ReadInt\HomeWork_29_ReadInt.csproj", "{205AE912-745B-4FAF-9265-3707DDFAD265}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_029_ReadInt", "..\HomeWork_28_ReadInt\HomeWork_029_ReadInt.csproj", "{205AE912-745B-4FAF-9265-3707DDFAD265}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_30_BraveNewWorld", "..\HomeWork_30_BraveNewWorld\HomeWork_30_BraveNewWorld.csproj", "{DD4DA6BE-F3B2-4532-A17F-8B5E015357B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_030_BraveNewWorld", "..\HomeWork_30_BraveNewWorld\HomeWork_030_BraveNewWorld.csproj", "{DD4DA6BE-F3B2-4532-A17F-8B5E015357B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

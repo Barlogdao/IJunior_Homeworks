@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectsU\\IJunior_Homeworks\\HomwWork_22_DynamicArray\\HomeWork_22_DynamicArray.csproj": {}
+    "E:\\Хранилища\\IJunior_Homeworks\\HomwWork_22_DynamicArray\\HomeWork_22_DynamicArray.csproj": {}
   },
   "projects": {
-    "D:\\ProjectsU\\IJunior_Homeworks\\HomwWork_22_DynamicArray\\HomeWork_22_DynamicArray.csproj": {
+    "E:\\Хранилища\\IJunior_Homeworks\\HomwWork_22_DynamicArray\\HomeWork_22_DynamicArray.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectsU\\IJunior_Homeworks\\HomwWork_22_DynamicArray\\HomeWork_22_DynamicArray.csproj",
+        "projectUniqueName": "E:\\Хранилища\\IJunior_Homeworks\\HomwWork_22_DynamicArray\\HomeWork_22_DynamicArray.csproj",
         "projectName": "HomeWork_22_DynamicArray",
-        "projectPath": "D:\\ProjectsU\\IJunior_Homeworks\\HomwWork_22_DynamicArray\\HomeWork_22_DynamicArray.csproj",
+        "projectPath": "E:\\Хранилища\\IJunior_Homeworks\\HomwWork_22_DynamicArray\\HomeWork_22_DynamicArray.csproj",
         "packagesPath": "C:\\Users\\Barlo\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectsU\\IJunior_Homeworks\\HomwWork_22_DynamicArray\\obj\\",
+        "outputPath": "E:\\Хранилища\\IJunior_Homeworks\\HomwWork_22_DynamicArray\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\VSCash\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Barlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,15 @@
+E:\Хранилища\IJunior_Homeworks\HomeWork_30_BraveNewWorld\bin\Debug\net7.0\HomeWork_30_BraveNewWorld.exe
+E:\Хранилища\IJunior_Homeworks\HomeWork_30_BraveNewWorld\bin\Debug\net7.0\HomeWork_30_BraveNewWorld.deps.json
+E:\Хранилища\IJunior_Homeworks\HomeWork_30_BraveNewWorld\bin\Debug\net7.0\HomeWork_30_BraveNewWorld.runtimeconfig.json
+E:\Хранилища\IJunior_Homeworks\HomeWork_30_BraveNewWorld\bin\Debug\net7.0\HomeWork_30_BraveNewWorld.dll
+E:\Хранилища\IJunior_Homeworks\HomeWork_30_BraveNewWorld\bin\Debug\net7.0\HomeWork_30_BraveNewWorld.pdb
+E:\Хранилища\IJunior_Homeworks\HomeWork_30_BraveNewWorld\obj\Debug\net7.0\HomeWork_30_BraveNewWorld.csproj.AssemblyReference.cache
+E:\Хранилища\IJunior_Homeworks\HomeWork_30_BraveNewWorld\obj\Debug\net7.0\HomeWork_30_BraveNewWorld.GeneratedMSBuildEditorConfig.editorconfig
+E:\Хранилища\IJunior_Homeworks\HomeWork_30_BraveNewWorld\obj\Debug\net7.0\HomeWork_30_BraveNewWorld.AssemblyInfoInputs.cache
+E:\Хранилища\IJunior_Homeworks\HomeWork_30_BraveNewWorld\obj\Debug\net7.0\HomeWork_30_BraveNewWorld.AssemblyInfo.cs
+E:\Хранилища\IJunior_Homeworks\HomeWork_30_BraveNewWorld\obj\Debug\net7.0\HomeWork_30_BraveNewWorld.csproj.CoreCompileInputs.cache
+E:\Хранилища\IJunior_Homeworks\HomeWork_30_BraveNewWorld\obj\Debug\net7.0\HomeWork_30_BraveNewWorld.dll
+E:\Хранилища\IJunior_Homeworks\HomeWork_30_BraveNewWorld\obj\Debug\net7.0\refint\HomeWork_30_BraveNewWorld.dll
+E:\Хранилища\IJunior_Homeworks\HomeWork_30_BraveNewWorld\obj\Debug\net7.0\HomeWork_30_BraveNewWorld.pdb
+E:\Хранилища\IJunior_Homeworks\HomeWork_30_BraveNewWorld\obj\Debug\net7.0\HomeWork_30_BraveNewWorld.genruntimeconfig.cache
+E:\Хранилища\IJunior_Homeworks\HomeWork_30_BraveNewWorld\obj\Debug\net7.0\ref\HomeWork_30_BraveNewWorld.dll

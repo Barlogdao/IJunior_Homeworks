@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_27_HrAccounting\\HomeWork_27_HrDatabase.csproj": {}
+    "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_27_HrAccounting\\HomeWork_27_HrDatabase.csproj": {}
   },
   "projects": {
-    "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_27_HrAccounting\\HomeWork_27_HrDatabase.csproj": {
+    "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_27_HrAccounting\\HomeWork_27_HrDatabase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_27_HrAccounting\\HomeWork_27_HrDatabase.csproj",
+        "projectUniqueName": "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_27_HrAccounting\\HomeWork_27_HrDatabase.csproj",
         "projectName": "HomeWork_27_HrDatabase",
-        "projectPath": "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_27_HrAccounting\\HomeWork_27_HrDatabase.csproj",
+        "projectPath": "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_27_HrAccounting\\HomeWork_27_HrDatabase.csproj",
         "packagesPath": "C:\\Users\\Barlo\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_27_HrAccounting\\obj\\",
+        "outputPath": "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_27_HrAccounting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\VSCash\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Barlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
