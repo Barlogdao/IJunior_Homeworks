@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_30_BraveNewWorld\bin\Debug\net7.0\HomeWork_030_BraveNewWorld.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_30_BraveNewWorld\bin\Debug\net7.0\HomeWork_030_BraveNewWorld.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_30_BraveNewWorld\bin\Debug\net7.0\HomeWork_030_BraveNewWorld.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_30_BraveNewWorld\bin\Debug\net7.0\HomeWork_030_BraveNewWorld.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_30_BraveNewWorld\bin\Debug\net7.0\HomeWork_030_BraveNewWorld.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_30_BraveNewWorld\obj\Debug\net7.0\HomeWork_030_BraveNewWorld.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_30_BraveNewWorld\obj\Debug\net7.0\HomeWork_030_BraveNewWorld.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_30_BraveNewWorld\obj\Debug\net7.0\HomeWork_030_BraveNewWorld.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_30_BraveNewWorld\obj\Debug\net7.0\HomeWork_030_BraveNewWorld.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_30_BraveNewWorld\obj\Debug\net7.0\HomeWork_030_BraveNewWorld.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_30_BraveNewWorld\obj\Debug\net7.0\HomeWork_030_BraveNewWorld.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_30_BraveNewWorld\obj\Debug\net7.0\refint\HomeWork_030_BraveNewWorld.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_30_BraveNewWorld\obj\Debug\net7.0\HomeWork_030_BraveNewWorld.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_30_BraveNewWorld\obj\Debug\net7.0\HomeWork_030_BraveNewWorld.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_30_BraveNewWorld\obj\Debug\net7.0\ref\HomeWork_030_BraveNewWorld.dll

@@ -5,12 +5,9 @@
         static void Main(string[] args)
         {
             Random random = new Random();
-            int maxRandomValue = 10;
+            int maxRandomValue = 5;
             int arraySize = 30;
             int[] numbers = new int[arraySize];
-            int mostRepeatingNumber = 0;
-            int repeatCount = 1;
-            int currentRepeatCount = 1;
 
             for (int i = 0; i < numbers.Length; i++)
             {
@@ -18,16 +15,24 @@
                 Console.Write(numbers[i] + " ");
             }
 
+            int mostRepeatingNumber = 0;
+            int repeatCount = 1;
+            int currentRepeatCount = 1;
+
             for (int i = 1; i < numbers.Length; i++)
             {
                 if (numbers[i] == numbers[i - 1])
                 {
                     currentRepeatCount++;
+
+                    if (currentRepeatCount > repeatCount)
+                    {
+                        repeatCount = currentRepeatCount;
+                        mostRepeatingNumber = numbers[i];
+                    }
                 }
-                else if (repeatCount < currentRepeatCount)
+                else
                 {
-                    mostRepeatingNumber = numbers[i - 1];
-                    repeatCount = currentRepeatCount;
                     currentRepeatCount = 1;
                 }
             }

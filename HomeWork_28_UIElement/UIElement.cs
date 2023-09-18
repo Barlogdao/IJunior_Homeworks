@@ -39,13 +39,15 @@
 
         private static void DrawBar(float percentValue, int maxValue, ConsoleColor color, int position, char emptySymbol, char filledSymbol)
         {
-            if (percentValue < 0 || percentValue > 100)
+            int maxPercent = 100;
+
+            if (percentValue < 0 || percentValue > maxPercent)
             {
                 Console.WriteLine("Указано недопустимое значение!");
                 return;
             }
 
-            int currentValue = Convert.ToInt32(MathF.Ceiling(maxValue * percentValue/100));
+            int currentValue = Convert.ToInt32(MathF.Ceiling(maxValue * percentValue / maxPercent));
 
             ConsoleColor originColor = Console.BackgroundColor;
 
@@ -53,20 +55,20 @@
             Console.Write("[");
 
             Console.BackgroundColor = color;
-
-            for (int i = 0; i < currentValue; i++)
-            {
-                Console.Write(filledSymbol);
-            }
+            DrawSymbol(currentValue, filledSymbol);
 
             Console.BackgroundColor = originColor;
-
-            for (int i = currentValue; i < maxValue; i++)
-            {
-                Console.Write(emptySymbol);
-            }
+            DrawSymbol(maxValue - currentValue, emptySymbol);
 
             Console.Write("]\n");
+        }
+
+        private static void DrawSymbol(int symbolAmount, char symbol)
+        {
+            for (int i = 0; i < symbolAmount; i++)
+            {
+                Console.Write(symbol);
+            }
         }
     }
 }

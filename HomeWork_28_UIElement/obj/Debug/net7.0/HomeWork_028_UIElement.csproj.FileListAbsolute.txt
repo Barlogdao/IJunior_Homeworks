@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_UIElement\bin\Debug\net7.0\HomeWork_028_UIElement.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_UIElement\bin\Debug\net7.0\HomeWork_028_UIElement.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_UIElement\bin\Debug\net7.0\HomeWork_028_UIElement.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_UIElement\bin\Debug\net7.0\HomeWork_028_UIElement.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_UIElement\bin\Debug\net7.0\HomeWork_028_UIElement.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_UIElement\obj\Debug\net7.0\HomeWork_028_UIElement.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_UIElement\obj\Debug\net7.0\HomeWork_028_UIElement.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_UIElement\obj\Debug\net7.0\HomeWork_028_UIElement.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_UIElement\obj\Debug\net7.0\HomeWork_028_UIElement.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_UIElement\obj\Debug\net7.0\HomeWork_028_UIElement.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_UIElement\obj\Debug\net7.0\HomeWork_028_UIElement.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_UIElement\obj\Debug\net7.0\refint\HomeWork_028_UIElement.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_UIElement\obj\Debug\net7.0\HomeWork_028_UIElement.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_UIElement\obj\Debug\net7.0\HomeWork_028_UIElement.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_28_UIElement\obj\Debug\net7.0\ref\HomeWork_028_UIElement.dll

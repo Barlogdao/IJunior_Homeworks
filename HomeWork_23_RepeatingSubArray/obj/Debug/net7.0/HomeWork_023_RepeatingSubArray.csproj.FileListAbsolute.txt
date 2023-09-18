@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_23_RepeatingSubArray\bin\Debug\net7.0\HomeWork_023_RepeatingSubArray.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_23_RepeatingSubArray\bin\Debug\net7.0\HomeWork_023_RepeatingSubArray.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_23_RepeatingSubArray\bin\Debug\net7.0\HomeWork_023_RepeatingSubArray.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_23_RepeatingSubArray\bin\Debug\net7.0\HomeWork_023_RepeatingSubArray.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_23_RepeatingSubArray\bin\Debug\net7.0\HomeWork_023_RepeatingSubArray.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_23_RepeatingSubArray\obj\Debug\net7.0\HomeWork_023_RepeatingSubArray.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_23_RepeatingSubArray\obj\Debug\net7.0\HomeWork_023_RepeatingSubArray.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_23_RepeatingSubArray\obj\Debug\net7.0\HomeWork_023_RepeatingSubArray.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_23_RepeatingSubArray\obj\Debug\net7.0\HomeWork_023_RepeatingSubArray.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_23_RepeatingSubArray\obj\Debug\net7.0\HomeWork_023_RepeatingSubArray.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_23_RepeatingSubArray\obj\Debug\net7.0\HomeWork_023_RepeatingSubArray.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_23_RepeatingSubArray\obj\Debug\net7.0\refint\HomeWork_023_RepeatingSubArray.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_23_RepeatingSubArray\obj\Debug\net7.0\HomeWork_023_RepeatingSubArray.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_23_RepeatingSubArray\obj\Debug\net7.0\HomeWork_023_RepeatingSubArray.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_23_RepeatingSubArray\obj\Debug\net7.0\ref\HomeWork_023_RepeatingSubArray.dll

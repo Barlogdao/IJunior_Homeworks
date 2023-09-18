@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_031_CanzasCityShuffle\bin\Debug\net7.0\HomeWork_031_CanzasCityShuffle.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_031_CanzasCityShuffle\bin\Debug\net7.0\HomeWork_031_CanzasCityShuffle.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_031_CanzasCityShuffle\bin\Debug\net7.0\HomeWork_031_CanzasCityShuffle.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_031_CanzasCityShuffle\bin\Debug\net7.0\HomeWork_031_CanzasCityShuffle.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_031_CanzasCityShuffle\bin\Debug\net7.0\HomeWork_031_CanzasCityShuffle.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_031_CanzasCityShuffle\obj\Debug\net7.0\HomeWork_031_CanzasCityShuffle.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_031_CanzasCityShuffle\obj\Debug\net7.0\HomeWork_031_CanzasCityShuffle.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_031_CanzasCityShuffle\obj\Debug\net7.0\HomeWork_031_CanzasCityShuffle.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_031_CanzasCityShuffle\obj\Debug\net7.0\HomeWork_031_CanzasCityShuffle.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_031_CanzasCityShuffle\obj\Debug\net7.0\HomeWork_031_CanzasCityShuffle.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_031_CanzasCityShuffle\obj\Debug\net7.0\HomeWork_031_CanzasCityShuffle.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_031_CanzasCityShuffle\obj\Debug\net7.0\refint\HomeWork_031_CanzasCityShuffle.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_031_CanzasCityShuffle\obj\Debug\net7.0\HomeWork_031_CanzasCityShuffle.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_031_CanzasCityShuffle\obj\Debug\net7.0\HomeWork_031_CanzasCityShuffle.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_031_CanzasCityShuffle\obj\Debug\net7.0\ref\HomeWork_031_CanzasCityShuffle.dll

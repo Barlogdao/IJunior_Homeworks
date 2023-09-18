@@ -63,6 +63,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_029_ReadInt", "..\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_030_BraveNewWorld", "..\HomeWork_30_BraveNewWorld\HomeWork_030_BraveNewWorld.csproj", "{DD4DA6BE-F3B2-4532-A17F-8B5E015357B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_031_CanzasCityShuffle", "..\HomeWork_031_CanzasCityShuffle\HomeWork_031_CanzasCityShuffle.csproj", "{70ACD618-6588-4944-AAE6-43ED56A16C7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_032_ExplanatoryDictionary", "..\HomeWork_032_ExplanatoryDictionary\HomeWork_032_ExplanatoryDictionary.csproj", "{DF03A4D8-F489-4B47-9DF6-8098C27F1652}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +193,14 @@ Global
 		{DD4DA6BE-F3B2-4532-A17F-8B5E015357B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD4DA6BE-F3B2-4532-A17F-8B5E015357B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD4DA6BE-F3B2-4532-A17F-8B5E015357B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70ACD618-6588-4944-AAE6-43ED56A16C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70ACD618-6588-4944-AAE6-43ED56A16C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70ACD618-6588-4944-AAE6-43ED56A16C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70ACD618-6588-4944-AAE6-43ED56A16C7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF03A4D8-F489-4B47-9DF6-8098C27F1652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF03A4D8-F489-4B47-9DF6-8098C27F1652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF03A4D8-F489-4B47-9DF6-8098C27F1652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF03A4D8-F489-4B47-9DF6-8098C27F1652}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_032_ExplanatoryDictionary\bin\Debug\net7.0\HomeWork_032_ExplanatoryDictionary.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_032_ExplanatoryDictionary\bin\Debug\net7.0\HomeWork_032_ExplanatoryDictionary.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_032_ExplanatoryDictionary\bin\Debug\net7.0\HomeWork_032_ExplanatoryDictionary.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_032_ExplanatoryDictionary\bin\Debug\net7.0\HomeWork_032_ExplanatoryDictionary.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_032_ExplanatoryDictionary\bin\Debug\net7.0\HomeWork_032_ExplanatoryDictionary.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_032_ExplanatoryDictionary\obj\Debug\net7.0\HomeWork_032_ExplanatoryDictionary.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_032_ExplanatoryDictionary\obj\Debug\net7.0\HomeWork_032_ExplanatoryDictionary.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_032_ExplanatoryDictionary\obj\Debug\net7.0\HomeWork_032_ExplanatoryDictionary.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_032_ExplanatoryDictionary\obj\Debug\net7.0\HomeWork_032_ExplanatoryDictionary.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_032_ExplanatoryDictionary\obj\Debug\net7.0\HomeWork_032_ExplanatoryDictionary.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_032_ExplanatoryDictionary\obj\Debug\net7.0\HomeWork_032_ExplanatoryDictionary.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_032_ExplanatoryDictionary\obj\Debug\net7.0\refint\HomeWork_032_ExplanatoryDictionary.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_032_ExplanatoryDictionary\obj\Debug\net7.0\HomeWork_032_ExplanatoryDictionary.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_032_ExplanatoryDictionary\obj\Debug\net7.0\HomeWork_032_ExplanatoryDictionary.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_032_ExplanatoryDictionary\obj\Debug\net7.0\ref\HomeWork_032_ExplanatoryDictionary.dll
