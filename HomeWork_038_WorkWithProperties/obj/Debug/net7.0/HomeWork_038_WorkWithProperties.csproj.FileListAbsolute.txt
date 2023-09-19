@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_038_WorkWithProperties\bin\Debug\net7.0\HomeWork_038_WorkWithProperties.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_038_WorkWithProperties\bin\Debug\net7.0\HomeWork_038_WorkWithProperties.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_038_WorkWithProperties\bin\Debug\net7.0\HomeWork_038_WorkWithProperties.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_038_WorkWithProperties\bin\Debug\net7.0\HomeWork_038_WorkWithProperties.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_038_WorkWithProperties\bin\Debug\net7.0\HomeWork_038_WorkWithProperties.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_038_WorkWithProperties\obj\Debug\net7.0\HomeWork_038_WorkWithProperties.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_038_WorkWithProperties\obj\Debug\net7.0\HomeWork_038_WorkWithProperties.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_038_WorkWithProperties\obj\Debug\net7.0\HomeWork_038_WorkWithProperties.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_038_WorkWithProperties\obj\Debug\net7.0\HomeWork_038_WorkWithProperties.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_038_WorkWithProperties\obj\Debug\net7.0\HomeWork_038_WorkWithProperties.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_038_WorkWithProperties\obj\Debug\net7.0\HomeWork_038_WorkWithProperties.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_038_WorkWithProperties\obj\Debug\net7.0\refint\HomeWork_038_WorkWithProperties.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_038_WorkWithProperties\obj\Debug\net7.0\HomeWork_038_WorkWithProperties.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_038_WorkWithProperties\obj\Debug\net7.0\HomeWork_038_WorkWithProperties.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_038_WorkWithProperties\obj\Debug\net7.0\ref\HomeWork_038_WorkWithProperties.dll

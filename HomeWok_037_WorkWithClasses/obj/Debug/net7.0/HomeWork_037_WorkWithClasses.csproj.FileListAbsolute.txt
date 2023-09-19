@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWok_037_WorkWithClasses\bin\Debug\net7.0\HomeWork_037_WorkWithClasses.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWok_037_WorkWithClasses\bin\Debug\net7.0\HomeWork_037_WorkWithClasses.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWok_037_WorkWithClasses\bin\Debug\net7.0\HomeWork_037_WorkWithClasses.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWok_037_WorkWithClasses\bin\Debug\net7.0\HomeWork_037_WorkWithClasses.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWok_037_WorkWithClasses\bin\Debug\net7.0\HomeWork_037_WorkWithClasses.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWok_037_WorkWithClasses\obj\Debug\net7.0\HomeWork_037_WorkWithClasses.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWok_037_WorkWithClasses\obj\Debug\net7.0\HomeWork_037_WorkWithClasses.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWok_037_WorkWithClasses\obj\Debug\net7.0\HomeWork_037_WorkWithClasses.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWok_037_WorkWithClasses\obj\Debug\net7.0\HomeWork_037_WorkWithClasses.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWok_037_WorkWithClasses\obj\Debug\net7.0\HomeWork_037_WorkWithClasses.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWok_037_WorkWithClasses\obj\Debug\net7.0\HomeWork_037_WorkWithClasses.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWok_037_WorkWithClasses\obj\Debug\net7.0\refint\HomeWork_037_WorkWithClasses.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWok_037_WorkWithClasses\obj\Debug\net7.0\HomeWork_037_WorkWithClasses.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWok_037_WorkWithClasses\obj\Debug\net7.0\HomeWork_037_WorkWithClasses.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWok_037_WorkWithClasses\obj\Debug\net7.0\ref\HomeWork_037_WorkWithClasses.dll

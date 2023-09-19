@@ -1,4 +1,6 @@
-﻿namespace HomeWork_18_BossBattle
+﻿using System.ComponentModel.Design;
+
+namespace HomeWork_18_BossBattle
 {
     internal class Program
     {
@@ -9,7 +11,8 @@
             const string SpellAcidShield = "3";
             const string SpellAcidRain = "4";
 
-            int playerHealth = 100;
+            int playerMaxHealth = 100;
+            int playerHealth = playerMaxHealth;
             int bossHealth = 100;
             int bossDamage = 50;
 
@@ -45,6 +48,11 @@
                     case SpellDrainLife:
                         bossHealth -= drainLifeAmount;
                         playerHealth += drainLifeAmount;
+
+                        if(playerHealth > playerMaxHealth)
+                        {
+                            playerHealth = playerMaxHealth;
+                        }
                         break;
 
                     case SpellAcidShield:
@@ -64,7 +72,6 @@
                         {
                             playerHealth -= acidRainDamage;
                         }
-
                         break;
 
                     default:
@@ -72,10 +79,6 @@
                         break;
                 }
 
-                if (bossHealth <= 0)
-                {
-                    break;
-                }
                 if (hasDamageResistance == true)
                 {
                     hasDamageResistance = false;
@@ -88,10 +91,12 @@
                 }
             }
 
-            if(playerHealth <= 0)
+            if (bossHealth > 0)
                 Console.WriteLine("Вы проиграли! Ваш труп будет кормить червей.");
+            else if (playerHealth > 0)
+                Console.WriteLine("Вы победили! Труп Рыцаря света стал вашей ручной собачкой.");
             else
-                Console.WriteLine("Вы победили! Труп Рыцаря света стал вашей ручной собачкой");
+                Console.WriteLine("Все погибли! Местные вороны рады такому исходу.");
         }
     }
 }
