@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_033_StoreQueue\obj\Debug\net7.0\HomeWork_033_StoreQueue.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_033_StoreQueue\obj\Debug\net7.0\HomeWork_033_StoreQueue.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_033_StoreQueue\obj\Debug\net7.0\HomeWork_033_StoreQueue.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_033_StoreQueue\obj\Debug\net7.0\HomeWork_033_StoreQueue.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_033_StoreQueue\obj\Debug\net7.0\HomeWork_033_StoreQueue.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_033_StoreQueue\bin\Debug\net7.0\HomeWork_033_StoreQueue.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_033_StoreQueue\bin\Debug\net7.0\HomeWork_033_StoreQueue.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_033_StoreQueue\bin\Debug\net7.0\HomeWork_033_StoreQueue.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_033_StoreQueue\bin\Debug\net7.0\HomeWork_033_StoreQueue.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_033_StoreQueue\bin\Debug\net7.0\HomeWork_033_StoreQueue.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_033_StoreQueue\obj\Debug\net7.0\HomeWork_033_StoreQueue.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_033_StoreQueue\obj\Debug\net7.0\refint\HomeWork_033_StoreQueue.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_033_StoreQueue\obj\Debug\net7.0\HomeWork_033_StoreQueue.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_033_StoreQueue\obj\Debug\net7.0\HomeWork_033_StoreQueue.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_033_StoreQueue\obj\Debug\net7.0\ref\HomeWork_033_StoreQueue.dll

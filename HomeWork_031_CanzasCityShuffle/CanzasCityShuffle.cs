@@ -6,7 +6,7 @@
         {
             int arraySize = 10;
             int maxRandomValue = 100;
-            int[] numbers = GetNumberArray(arraySize, maxRandomValue); 
+            int[] numbers = GetNumberArray(arraySize, maxRandomValue);
 
             Console.WriteLine("Исходный массив:");
             ShowArray(numbers);
@@ -37,14 +37,18 @@
         private static int[] Shuffle(int[] numbers)
         {
             Random random = new Random();
+            int[] tempArray = new int[numbers.Length];
 
             for (int i = 0; i < numbers.Length; i++)
+                tempArray[i] = numbers[i];
+
+            for (int i = 0; i < tempArray.Length; i++)
             {
-                int randomIndex = random.Next(numbers.Length);
-                (numbers[i], numbers[randomIndex]) = (numbers[randomIndex], numbers[i]);
+                int randomIndex = random.Next(tempArray.Length);
+                (tempArray[i], tempArray[randomIndex]) = (tempArray[randomIndex], tempArray[i]);
             }
 
-            return numbers;
+            return tempArray;
         }
     }
 }

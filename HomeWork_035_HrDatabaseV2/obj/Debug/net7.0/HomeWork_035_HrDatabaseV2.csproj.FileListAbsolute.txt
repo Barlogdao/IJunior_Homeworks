@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_035_HrDatabaseV2\bin\Debug\net7.0\HomeWork_035_HrDatabaseV2.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_035_HrDatabaseV2\bin\Debug\net7.0\HomeWork_035_HrDatabaseV2.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_035_HrDatabaseV2\bin\Debug\net7.0\HomeWork_035_HrDatabaseV2.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_035_HrDatabaseV2\bin\Debug\net7.0\HomeWork_035_HrDatabaseV2.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_035_HrDatabaseV2\bin\Debug\net7.0\HomeWork_035_HrDatabaseV2.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_035_HrDatabaseV2\obj\Debug\net7.0\HomeWork_035_HrDatabaseV2.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_035_HrDatabaseV2\obj\Debug\net7.0\HomeWork_035_HrDatabaseV2.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_035_HrDatabaseV2\obj\Debug\net7.0\HomeWork_035_HrDatabaseV2.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_035_HrDatabaseV2\obj\Debug\net7.0\HomeWork_035_HrDatabaseV2.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_035_HrDatabaseV2\obj\Debug\net7.0\HomeWork_035_HrDatabaseV2.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_035_HrDatabaseV2\obj\Debug\net7.0\HomeWork_035_HrDatabaseV2.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_035_HrDatabaseV2\obj\Debug\net7.0\refint\HomeWork_035_HrDatabaseV2.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_035_HrDatabaseV2\obj\Debug\net7.0\HomeWork_035_HrDatabaseV2.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_035_HrDatabaseV2\obj\Debug\net7.0\HomeWork_035_HrDatabaseV2.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_035_HrDatabaseV2\obj\Debug\net7.0\ref\HomeWork_035_HrDatabaseV2.dll

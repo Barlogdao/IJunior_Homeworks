@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_036_MergeCollection\bin\Debug\net7.0\HomeWork_036_MergeCollection.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_036_MergeCollection\bin\Debug\net7.0\HomeWork_036_MergeCollection.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_036_MergeCollection\bin\Debug\net7.0\HomeWork_036_MergeCollection.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_036_MergeCollection\bin\Debug\net7.0\HomeWork_036_MergeCollection.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_036_MergeCollection\bin\Debug\net7.0\HomeWork_036_MergeCollection.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_036_MergeCollection\obj\Debug\net7.0\HomeWork_036_MergeCollection.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_036_MergeCollection\obj\Debug\net7.0\HomeWork_036_MergeCollection.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_036_MergeCollection\obj\Debug\net7.0\HomeWork_036_MergeCollection.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_036_MergeCollection\obj\Debug\net7.0\HomeWork_036_MergeCollection.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_036_MergeCollection\obj\Debug\net7.0\HomeWork_036_MergeCollection.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_036_MergeCollection\obj\Debug\net7.0\HomeWork_036_MergeCollection.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_036_MergeCollection\obj\Debug\net7.0\refint\HomeWork_036_MergeCollection.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_036_MergeCollection\obj\Debug\net7.0\HomeWork_036_MergeCollection.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_036_MergeCollection\obj\Debug\net7.0\HomeWork_036_MergeCollection.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_036_MergeCollection\obj\Debug\net7.0\ref\HomeWork_036_MergeCollection.dll
