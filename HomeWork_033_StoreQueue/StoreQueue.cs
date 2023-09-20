@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Queue<int> clientsQueue = CreateQueue();
+            Queue<int> clientsQueue = new Queue<int>();
+            CreateQueue(clientsQueue);
+            StartStoreWork(clientsQueue);
+        }
+
+        private static void StartStoreWork(Queue<int> clientsQueue)
+        {
             int storeAccount = 0;
 
             while (clientsQueue.Count > 0)
@@ -26,21 +32,17 @@
             Console.WriteLine($"На счету магазина {storeAccount} долларов");
         }
 
-        private static Queue<int> CreateQueue()
+        private static void CreateQueue(Queue<int> queue)
         {
             Random random = new Random();
             int minValue = 1;
             int maxValue = 501;
             int queueSize = 10;
 
-            Queue<int> tempQueue = new Queue<int>();
-
             for (int i = 0; i < queueSize; i++)
             {
-                tempQueue.Enqueue(random.Next(minValue, maxValue));
+                queue.Enqueue(random.Next(minValue, maxValue));
             }
-
-            return tempQueue;
         }
     }
 }

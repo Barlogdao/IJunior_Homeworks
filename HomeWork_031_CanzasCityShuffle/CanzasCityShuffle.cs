@@ -11,8 +11,10 @@
             Console.WriteLine("Исходный массив:");
             ShowArray(numbers);
 
+            Shuffle(numbers);
+
             Console.WriteLine("\nПеремешанный массив:");
-            ShowArray(Shuffle(numbers));
+            ShowArray(numbers);
 
             Console.ReadKey();
         }
@@ -34,21 +36,15 @@
                 Console.Write(number + " ");
         }
 
-        private static int[] Shuffle(int[] numbers)
+        private static void Shuffle(int[] numbers)
         {
             Random random = new Random();
-            int[] tempArray = new int[numbers.Length];
 
             for (int i = 0; i < numbers.Length; i++)
-                tempArray[i] = numbers[i];
-
-            for (int i = 0; i < tempArray.Length; i++)
             {
-                int randomIndex = random.Next(tempArray.Length);
-                (tempArray[i], tempArray[randomIndex]) = (tempArray[randomIndex], tempArray[i]);
+                int randomIndex = random.Next(numbers.Length);
+                (numbers[i], numbers[randomIndex]) = (numbers[randomIndex], numbers[i]);
             }
-
-            return tempArray;
         }
     }
 }

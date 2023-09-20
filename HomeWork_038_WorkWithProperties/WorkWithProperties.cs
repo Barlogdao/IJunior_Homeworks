@@ -9,32 +9,29 @@
 
             drawer.DrawPlayer(player);
         }
+    }
 
-        public class Drawer
+    public class Drawer
+    {
+        public void DrawPlayer(Player player)
         {
-            public void DrawPlayer(Player player)
-            {
-                Console.SetCursorPosition(player.PositionX, player.PositionY);
-                Console.Write(player.Symbol);
-            }
-        }
-
-        public class Player
-        {
-            private int _positionX;
-            private int _positionY;
-            private char _symbol;
-
-            public Player(int positionX, int positionY, char symbol)
-            {
-                _positionX = positionX;
-                _positionY = positionY;
-                _symbol = symbol;
-            }
-
-            public int PositionX => _positionX;
-            public int PositionY => _positionY;
-            public char Symbol => _symbol;
+            Console.SetCursorPosition(player.PositionX, player.PositionY);
+            Console.Write(player.Symbol);
         }
     }
+
+    public class Player
+    {
+        public Player(int positionX, int positionY, char symbol)
+        {
+            PositionX = positionX;
+            PositionY = positionY;
+            Symbol = symbol;
+        }
+
+        public int PositionX { get; private set; }
+        public int PositionY { get; private set; }
+        public char Symbol { get; private set; }
+    }
 }
+

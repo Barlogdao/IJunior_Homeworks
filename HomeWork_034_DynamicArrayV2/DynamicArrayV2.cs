@@ -8,13 +8,13 @@
             const string CommandExit = "exit";
 
             List<int> numberList = new();
-            bool exitRequested = false;
+            bool isExitRequested = false;
 
             Console.WriteLine($"Введите число или одну из следующих команд:" +
                 $"\n[{CommandSum}] - вывести сумму всех введенных чисел" +
                 $"\n[{CommandExit}] - выйти из программы\n");
 
-            while (exitRequested == false)
+            while (isExitRequested == false)
             {
                 Console.Write("Введите число или команду: ");
                 string input = Console.ReadLine();
@@ -26,7 +26,7 @@
                         break;
 
                     case CommandExit:
-                        exitRequested = true;
+                        isExitRequested = true;
                         break;
 
                     default:
