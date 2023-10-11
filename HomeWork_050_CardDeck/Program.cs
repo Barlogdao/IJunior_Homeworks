@@ -8,13 +8,13 @@
             const string CommandStop = "2";
 
             Deck deck = new Deck();
-            Player player = new Player(deck);
-            bool _isStopRequested = false;
+            Player player = new Player();
+            bool isStopRequested = false;
             string instructionMessage = $"Введите [{CommandTakeCard}] чтобы взять карту" + $"\nВведите [{CommandStop}] чтобы остановиться\n";
 
             Console.WriteLine(instructionMessage);
 
-            while (_isStopRequested == false)
+            while (isStopRequested == false)
             {
                 Console.Write("Ваш выбор: ");
                 string input = Console.ReadLine();
@@ -22,11 +22,11 @@
                 switch (input)
                 {
                     case CommandTakeCard:
-                        player.TakeCard();
+                        player.TakeCard(deck.GiveCard());
                         break;
 
                     case CommandStop:
-                        _isStopRequested = true;
+                        isStopRequested = true;
                         break;
 
                     default:
@@ -45,46 +45,16 @@
 
     public class Deck
     {
-        private readonly Dictionary<CardRank, string> _cardRanks = new()
-        {
-            { CardRank.six,     "Шестерка"},
-            { CardRank.seven,   "Семерка"},
-            { CardRank.eight,   "Восьмерка"},
-            { CardRank.nine,    "Девятка"},
-            { CardRank.ten,     "Десятка"},
-            { CardRank.jack,    "Валет"},
-            { CardRank.queen,   "Дама"},
-            { CardRank.king,    "Король"},
-            { CardRank.ace,     "Туз"}
-        };
-
-        private readonly Dictionary<CardSuit, string> _cardSuits = new()
-        {
-            {CardSuit.hearts,   "Черви"},
-            {CardSuit.clubs,    "Треф"},
-            {CardSuit.diamonds, "Буби"},
-            {CardSuit.spades,   "Пики"}
-        };
-
-        private Stack<Card> _cards = new();
+        private readonly string[] _cardRanks = new string[] { "Шестерка", "Семерка", "Восьмерка", "Девятка", "Десятка", "Валет", "Дама", "Король", "Туз" };
+        private readonly string[] _cardSuits = new string[] { "Черви", "Треф", "Буби", "Пики" };
+        private readonly Stack<Card> _cards = new();
 
         public Deck()
         {
-            List<Card> cardList = new List<Card>(_cardRanks.Count * _cardSuits.Count);
-
-            foreach (var rank in _cardRanks.Keys)
-                foreach (var suit in _cardSuits.Keys)
-                    cardList.Add(new Card(_cardRanks[rank], _cardSuits[suit]));
-
-            Shuffle(cardList);
-
-            foreach (var card in cardList)
-            {
-                _cards.Push(card);
-            }
+            CreateDeck();
         }
 
-        public Card? GetCard()
+        public Card? GiveCard()
         {
             if (_cards.Count > 0)
             {
@@ -92,6 +62,22 @@
             }
 
             return null;
+        }
+
+        private void CreateDeck()
+        {
+            List<Card> cardList = new List<Card>(_cardRanks.Length * _cardSuits.Length);
+
+            foreach (var rank in _cardRanks)
+                foreach (var suit in _cardSuits)
+                    cardList.Add(new Card(rank, suit));
+
+            Shuffle(cardList);
+
+            foreach (var card in cardList)
+            {
+                _cards.Push(card);
+            }
         }
 
         private void Shuffle(List<Card> cards)
@@ -116,23 +102,15 @@
 
     public class Player
     {
-        private List<Card> _hand = new();
-        private Deck _deck;
+        private readonly List<Card> _hand = new();
 
-        public Player(Deck deck)
+        public void TakeCard(Card? card)
         {
-            _deck = deck;
-        }
-
-        public void TakeCard()
-        {
-            Card? nextCard = _deck.GetCard();
-
-            if (nextCard != null)
+            if (card != null)
             {
-                _hand.Add(nextCard);
+                _hand.Add(card);
 
-                Console.WriteLine($"Вы взяли {nextCard}");
+                Console.WriteLine($"Вы взяли {card}");
             }
             else
             {
@@ -147,26 +125,5 @@
                 Console.WriteLine(card);
             }
         }
-    }
-
-    public enum CardRank
-    {
-        six,
-        seven,
-        eight,
-        nine,
-        ten,
-        jack,
-        queen,
-        king,
-        ace
-    }
-
-    public enum CardSuit
-    {
-        hearts,
-        diamonds,
-        clubs,
-        spades
     }
 }
