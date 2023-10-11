@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_050_CardDeck\bin\Debug\net7.0\HomeWork_040_CardDeck.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_050_CardDeck\bin\Debug\net7.0\HomeWork_040_CardDeck.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_050_CardDeck\bin\Debug\net7.0\HomeWork_040_CardDeck.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_050_CardDeck\bin\Debug\net7.0\HomeWork_040_CardDeck.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_050_CardDeck\bin\Debug\net7.0\HomeWork_040_CardDeck.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_050_CardDeck\obj\Debug\net7.0\HomeWork_040_CardDeck.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_050_CardDeck\obj\Debug\net7.0\HomeWork_040_CardDeck.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_050_CardDeck\obj\Debug\net7.0\HomeWork_040_CardDeck.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_050_CardDeck\obj\Debug\net7.0\HomeWork_040_CardDeck.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_050_CardDeck\obj\Debug\net7.0\HomeWork_040_CardDeck.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_050_CardDeck\obj\Debug\net7.0\HomeWork_040_CardDeck.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_050_CardDeck\obj\Debug\net7.0\refint\HomeWork_040_CardDeck.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_050_CardDeck\obj\Debug\net7.0\HomeWork_040_CardDeck.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_050_CardDeck\obj\Debug\net7.0\HomeWork_040_CardDeck.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_050_CardDeck\obj\Debug\net7.0\ref\HomeWork_040_CardDeck.dll

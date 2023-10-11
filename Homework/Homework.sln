@@ -63,23 +63,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_029_ReadInt", "..\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_030_BraveNewWorld", "..\HomeWork_30_BraveNewWorld\HomeWork_030_BraveNewWorld.csproj", "{DD4DA6BE-F3B2-4532-A17F-8B5E015357B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_031_CanzasCityShuffle", "..\HomeWork_031_CanzasCityShuffle\HomeWork_031_CanzasCityShuffle.csproj", "{70ACD618-6588-4944-AAE6-43ED56A16C7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_031_CanzasCityShuffle", "..\HomeWork_031_CanzasCityShuffle\HomeWork_031_CanzasCityShuffle.csproj", "{70ACD618-6588-4944-AAE6-43ED56A16C7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_032_ExplanatoryDictionary", "..\HomeWork_032_ExplanatoryDictionary\HomeWork_032_ExplanatoryDictionary.csproj", "{DF03A4D8-F489-4B47-9DF6-8098C27F1652}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_032_ExplanatoryDictionary", "..\HomeWork_032_ExplanatoryDictionary\HomeWork_032_ExplanatoryDictionary.csproj", "{DF03A4D8-F489-4B47-9DF6-8098C27F1652}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_033_StoreQueue", "..\HomeWork_033_StoreQueue\HomeWork_033_StoreQueue.csproj", "{42FDA5DF-03C3-4001-9E81-1B6DFDF97683}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_033_StoreQueue", "..\HomeWork_033_StoreQueue\HomeWork_033_StoreQueue.csproj", "{42FDA5DF-03C3-4001-9E81-1B6DFDF97683}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_034_DynamicArrayV2", "..\HomeWork_034_DynamicArrayV2\HomeWork_034_DynamicArrayV2.csproj", "{0E8822D3-5DC9-494B-805E-4CE312A9ABF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_034_DynamicArrayV2", "..\HomeWork_034_DynamicArrayV2\HomeWork_034_DynamicArrayV2.csproj", "{0E8822D3-5DC9-494B-805E-4CE312A9ABF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_035_HrDatabaseV2", "..\HomeWork_035_HrDatabaseV2\HomeWork_035_HrDatabaseV2.csproj", "{5A57AE5C-4FA3-4660-A1DF-3FA87C22FC39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_035_HrDatabaseV2", "..\HomeWork_035_HrDatabaseV2\HomeWork_035_HrDatabaseV2.csproj", "{5A57AE5C-4FA3-4660-A1DF-3FA87C22FC39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_036_MergeCollection", "..\HomeWork_036_MergeCollection\HomeWork_036_MergeCollection.csproj", "{E5136641-5192-4628-9D72-7268913327D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_036_MergeCollection", "..\HomeWork_036_MergeCollection\HomeWork_036_MergeCollection.csproj", "{E5136641-5192-4628-9D72-7268913327D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_037_WorkWithClasses", "..\HomeWok_037_WorkWithClasses\HomeWork_037_WorkWithClasses.csproj", "{CC934980-72CF-4C1E-A28C-D047C21E1B09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_037_WorkWithClasses", "..\HomeWok_037_WorkWithClasses\HomeWork_037_WorkWithClasses.csproj", "{CC934980-72CF-4C1E-A28C-D047C21E1B09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_038_WorkWithProperties", "..\HomeWork_038_WorkWithProperties\HomeWork_038_WorkWithProperties.csproj", "{CB1C8167-3622-47D6-AB12-9718DCECCD5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_038_WorkWithProperties", "..\HomeWork_038_WorkWithProperties\HomeWork_038_WorkWithProperties.csproj", "{CB1C8167-3622-47D6-AB12-9718DCECCD5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_039_PlayersDataBase", "..\HomeWork_039_PlayersDataBase\HomeWork_039_PlayersDataBase.csproj", "{36E79EC3-F500-48EB-B53C-5E2EAFAF0C95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_039_PlayersDataBase", "..\HomeWork_039_PlayersDataBase\HomeWork_039_PlayersDataBase.csproj", "{36E79EC3-F500-48EB-B53C-5E2EAFAF0C95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_040_CardDeck", "..\HomeWork_050_CardDeck\HomeWork_040_CardDeck.csproj", "{899E682C-3F5F-4E7D-8799-6E4BB4F2EFD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_041_BookStorage", "..\HomeWork_041_BookStorage\HomeWork_041_BookStorage.csproj", "{D9CB3D48-7FA2-4101-AD87-5F70030D611D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -243,6 +247,14 @@ Global
 		{36E79EC3-F500-48EB-B53C-5E2EAFAF0C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36E79EC3-F500-48EB-B53C-5E2EAFAF0C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36E79EC3-F500-48EB-B53C-5E2EAFAF0C95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{899E682C-3F5F-4E7D-8799-6E4BB4F2EFD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{899E682C-3F5F-4E7D-8799-6E4BB4F2EFD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{899E682C-3F5F-4E7D-8799-6E4BB4F2EFD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{899E682C-3F5F-4E7D-8799-6E4BB4F2EFD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9CB3D48-7FA2-4101-AD87-5F70030D611D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9CB3D48-7FA2-4101-AD87-5F70030D611D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9CB3D48-7FA2-4101-AD87-5F70030D611D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9CB3D48-7FA2-4101-AD87-5F70030D611D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_039_PlayersDataBase\bin\Debug\net7.0\HomeWork_039_PlayersDataBase.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_039_PlayersDataBase\bin\Debug\net7.0\HomeWork_039_PlayersDataBase.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_039_PlayersDataBase\bin\Debug\net7.0\HomeWork_039_PlayersDataBase.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_039_PlayersDataBase\bin\Debug\net7.0\HomeWork_039_PlayersDataBase.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_039_PlayersDataBase\bin\Debug\net7.0\HomeWork_039_PlayersDataBase.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_039_PlayersDataBase\obj\Debug\net7.0\HomeWork_039_PlayersDataBase.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_039_PlayersDataBase\obj\Debug\net7.0\HomeWork_039_PlayersDataBase.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_039_PlayersDataBase\obj\Debug\net7.0\HomeWork_039_PlayersDataBase.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_039_PlayersDataBase\obj\Debug\net7.0\HomeWork_039_PlayersDataBase.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_039_PlayersDataBase\obj\Debug\net7.0\HomeWork_039_PlayersDataBase.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_039_PlayersDataBase\obj\Debug\net7.0\HomeWork_039_PlayersDataBase.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_039_PlayersDataBase\obj\Debug\net7.0\refint\HomeWork_039_PlayersDataBase.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_039_PlayersDataBase\obj\Debug\net7.0\HomeWork_039_PlayersDataBase.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_039_PlayersDataBase\obj\Debug\net7.0\HomeWork_039_PlayersDataBase.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_039_PlayersDataBase\obj\Debug\net7.0\ref\HomeWork_039_PlayersDataBase.dll
