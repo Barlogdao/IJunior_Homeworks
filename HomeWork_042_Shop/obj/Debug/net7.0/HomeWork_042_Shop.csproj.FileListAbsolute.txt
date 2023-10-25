@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_042_Shop\bin\Debug\net7.0\HomeWork_042_Shop.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_042_Shop\bin\Debug\net7.0\HomeWork_042_Shop.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_042_Shop\bin\Debug\net7.0\HomeWork_042_Shop.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_042_Shop\bin\Debug\net7.0\HomeWork_042_Shop.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_042_Shop\bin\Debug\net7.0\HomeWork_042_Shop.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_042_Shop\obj\Debug\net7.0\HomeWork_042_Shop.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_042_Shop\obj\Debug\net7.0\HomeWork_042_Shop.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_042_Shop\obj\Debug\net7.0\HomeWork_042_Shop.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_042_Shop\obj\Debug\net7.0\HomeWork_042_Shop.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_042_Shop\obj\Debug\net7.0\HomeWork_042_Shop.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_042_Shop\obj\Debug\net7.0\HomeWork_042_Shop.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_042_Shop\obj\Debug\net7.0\refint\HomeWork_042_Shop.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_042_Shop\obj\Debug\net7.0\HomeWork_042_Shop.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_042_Shop\obj\Debug\net7.0\HomeWork_042_Shop.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_042_Shop\obj\Debug\net7.0\ref\HomeWork_042_Shop.dll

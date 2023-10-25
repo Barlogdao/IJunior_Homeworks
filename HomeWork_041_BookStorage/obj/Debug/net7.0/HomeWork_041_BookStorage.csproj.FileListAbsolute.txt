@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_041_BookStorage\bin\Debug\net7.0\HomeWork_041_BookStorage.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_041_BookStorage\bin\Debug\net7.0\HomeWork_041_BookStorage.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_041_BookStorage\bin\Debug\net7.0\HomeWork_041_BookStorage.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_041_BookStorage\bin\Debug\net7.0\HomeWork_041_BookStorage.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_041_BookStorage\bin\Debug\net7.0\HomeWork_041_BookStorage.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_041_BookStorage\obj\Debug\net7.0\HomeWork_041_BookStorage.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_041_BookStorage\obj\Debug\net7.0\HomeWork_041_BookStorage.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_041_BookStorage\obj\Debug\net7.0\HomeWork_041_BookStorage.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_041_BookStorage\obj\Debug\net7.0\HomeWork_041_BookStorage.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_041_BookStorage\obj\Debug\net7.0\HomeWork_041_BookStorage.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_041_BookStorage\obj\Debug\net7.0\HomeWork_041_BookStorage.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_041_BookStorage\obj\Debug\net7.0\refint\HomeWork_041_BookStorage.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_041_BookStorage\obj\Debug\net7.0\HomeWork_041_BookStorage.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_041_BookStorage\obj\Debug\net7.0\HomeWork_041_BookStorage.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_041_BookStorage\obj\Debug\net7.0\ref\HomeWork_041_BookStorage.dll
