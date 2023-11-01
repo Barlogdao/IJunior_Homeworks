@@ -1,43 +1,52 @@
-﻿namespace HomeWork_042_Shop
+﻿using HomeWork_042_Shop;
+
+namespace HomeWork_042_Shop
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             Player player = new Player(100);
-            Seller seller = new Seller();
+            Seller seller = new Seller(20);
             Shop shop = new Shop(player, seller);
 
             shop.Run();
         }
     }
 
-    public class Player
+    public abstract class Person
     {
-        private readonly List<Item> _inventory;
-        private int _money;
+        protected int Money;
+        protected List<Item> Inventory;
 
-        public Player(int money)
+        public Person(int money)
         {
-            _inventory = new();
-            _money = money;
+            Money = money;
+            Inventory = new List<Item>();
         }
 
-        public void ShowInventory()
+        public abstract void ShowInventory();
+    }
+
+
+    public class Player : Person
+    {
+        public Player(int money) : base(money) { }
+
+        public override void ShowInventory()
         {
             Console.WriteLine("В вашем инвентаре:");
-            Console.WriteLine($"Золото ({_money})");
+            Console.WriteLine($"Золото ({Money})");
 
-            foreach (Item item in _inventory)
+            foreach (Item item in Inventory)
                 Console.WriteLine(item.Name);
         }
 
         public bool TryBuyItem(Item item)
         {
-            if (CanBuyItem(item))
+            if (CanBuyItem(item.Price))
             {
-                _money -= item.Price;
-                AddItemToInventory(item);
+                BuyItem(item);
 
                 Console.WriteLine($"Вы купили предмет ({item.Name})");
                 return true;
@@ -48,24 +57,23 @@
             return false;
         }
 
-        private bool CanBuyItem(Item item)
+        private bool CanBuyItem(int price)
         {
-            return _money >= item.Price;
+            return Money >= price;
         }
 
-        private void AddItemToInventory(Item item)
+        private void BuyItem(Item item)
         {
-            _inventory.Add(item);
+            Money -= item.Price;
+            Inventory.Add(item);
         }
     }
 
-    public class Seller
+    public class Seller : Person
     {
-        private readonly List<Item> _items;
-
-        public Seller()
+        public Seller(int money) : base(money)
         {
-            _items = new List<Item>()
+            Inventory = new List<Item>()
             {
                 new Item("Меч", 25),
                 new Item("Щит", 20),
@@ -74,9 +82,9 @@
             };
         }
 
-        public void ShowItems()
+        public override void ShowInventory()
         {
-            if (_items.Count == 0)
+            if (Inventory.Count == 0)
             {
                 Console.WriteLine("Торговцу нечего вам предложить(");
             }
@@ -86,8 +94,8 @@
 
                 Console.WriteLine("Торговец предлагает следующие товары:");
 
-                for (int i = 0; i < _items.Count; i++)
-                    Console.WriteLine($"{i + countOffset}. {_items[i]}");
+                for (int i = 0; i < Inventory.Count; i++)
+                    Console.WriteLine($"{i + countOffset}. {Inventory[i]}");
             }
         }
 
@@ -95,37 +103,27 @@
         {
             item = null;
 
-            if (itemIndex < 0 || itemIndex >= _items.Count)
+            if (itemIndex < 0 || itemIndex >= Inventory.Count)
             {
                 Console.WriteLine("Предмета с указанным номером не существует!");
                 return false;
             }
 
-            item = _items[itemIndex];
+            item = Inventory[itemIndex];
             return true;
         }
 
         public void SellItem(Item item)
         {
-            _items.Remove(item);
+            Money += item.Price;
+            Inventory.Remove(item);
         }
     }
 
     public class Shop
     {
-        private const string CommandShowItems = "1";
-        private const string CommandBuyItem = "2";
-        private const string CommandShowInventory = "3";
-        private const string CommandExit = "0";
-
         private readonly Player _player;
         private readonly Seller _seller;
-
-        private readonly string _commandMessage = $"\n [{CommandShowItems}] - посмотреть товары торговца" +
-                $"\n [{CommandBuyItem}] - купить товар у торговца" +
-                $"\n [{CommandShowInventory}] - посмотреть свой инвентарь" +
-                $"\n [{CommandExit}] - выход";
-        private bool _isWorking = true;
 
         public Shop(Player player, Seller seller)
         {
@@ -135,10 +133,21 @@
 
         public void Run()
         {
-            Console.WriteLine("Добро пожаловать в лавку торговца!");
-            Console.WriteLine(_commandMessage);
+            const string CommandShowItems = "1";
+            const string CommandBuyItem = "2";
+            const string CommandShowInventory = "3";
+            const string CommandExit = "0";
 
-            while (_isWorking)
+            string commandMessage = $"\n [{CommandShowItems}] - посмотреть товары торговца" +
+                    $"\n [{CommandBuyItem}] - купить товар у торговца" +
+                    $"\n [{CommandShowInventory}] - посмотреть свой инвентарь" +
+                    $"\n [{CommandExit}] - выход";
+            bool isWorking = true;
+
+            Console.WriteLine("Добро пожаловать в лавку торговца!");
+            Console.WriteLine(commandMessage);
+
+            while (isWorking)
             {
                 Console.Write("\nВведите команду: ");
                 string input = Console.ReadLine();
@@ -146,7 +155,7 @@
                 switch (input)
                 {
                     case CommandShowItems:
-                        _seller.ShowItems();
+                        _seller.ShowInventory();
                         break;
 
                     case CommandShowInventory:
@@ -158,12 +167,12 @@
                         break;
 
                     case CommandExit:
-                        _isWorking = false;
+                        isWorking = false;
                         break;
 
                     default:
                         Console.WriteLine("Неверная команда!");
-                        Console.WriteLine(_commandMessage);
+                        Console.WriteLine(commandMessage);
                         break;
                 }
             }
@@ -191,7 +200,7 @@
             Console.Write("Укажите номер товара: ");
             string input = Console.ReadLine();
 
-            while(int.TryParse(input, out itemNumber) != true)
+            while (int.TryParse(input, out itemNumber) != true)
             {
                 Console.WriteLine("Номер товара должен быть числом!");
 

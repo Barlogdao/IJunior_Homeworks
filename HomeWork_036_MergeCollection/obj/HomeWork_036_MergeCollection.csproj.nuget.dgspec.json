@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_036_MergeCollection\\HomeWork_036_MergeCollection.csproj": {}
+    "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_036_MergeCollection\\HomeWork_036_MergeCollection.csproj": {}
   },
   "projects": {
-    "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_036_MergeCollection\\HomeWork_036_MergeCollection.csproj": {
+    "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_036_MergeCollection\\HomeWork_036_MergeCollection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_036_MergeCollection\\HomeWork_036_MergeCollection.csproj",
+        "projectUniqueName": "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_036_MergeCollection\\HomeWork_036_MergeCollection.csproj",
         "projectName": "HomeWork_036_MergeCollection",
-        "projectPath": "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_036_MergeCollection\\HomeWork_036_MergeCollection.csproj",
+        "projectPath": "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_036_MergeCollection\\HomeWork_036_MergeCollection.csproj",
         "packagesPath": "C:\\Users\\Barlo\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_036_MergeCollection\\obj\\",
+        "outputPath": "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_036_MergeCollection\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\VSCash\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Barlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_041_BookStorage\\HomeWork_041_BookStorage.csproj": {}
+    "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_041_BookStorage\\HomeWork_041_BookStorage.csproj": {}
   },
   "projects": {
-    "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_041_BookStorage\\HomeWork_041_BookStorage.csproj": {
+    "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_041_BookStorage\\HomeWork_041_BookStorage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_041_BookStorage\\HomeWork_041_BookStorage.csproj",
+        "projectUniqueName": "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_041_BookStorage\\HomeWork_041_BookStorage.csproj",
         "projectName": "HomeWork_041_BookStorage",
-        "projectPath": "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_041_BookStorage\\HomeWork_041_BookStorage.csproj",
+        "projectPath": "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_041_BookStorage\\HomeWork_041_BookStorage.csproj",
         "packagesPath": "C:\\Users\\Barlo\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_041_BookStorage\\obj\\",
+        "outputPath": "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_041_BookStorage\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\VSCash\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Barlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
