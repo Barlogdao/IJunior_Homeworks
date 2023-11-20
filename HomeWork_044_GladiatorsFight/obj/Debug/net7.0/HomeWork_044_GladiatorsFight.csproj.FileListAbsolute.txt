@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_044_GladiatorsFight\bin\Debug\net7.0\HomeWork_044_GladiatorsFight.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_044_GladiatorsFight\bin\Debug\net7.0\HomeWork_044_GladiatorsFight.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_044_GladiatorsFight\bin\Debug\net7.0\HomeWork_044_GladiatorsFight.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_044_GladiatorsFight\bin\Debug\net7.0\HomeWork_044_GladiatorsFight.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_044_GladiatorsFight\bin\Debug\net7.0\HomeWork_044_GladiatorsFight.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_044_GladiatorsFight\obj\Debug\net7.0\HomeWork_044_GladiatorsFight.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_044_GladiatorsFight\obj\Debug\net7.0\HomeWork_044_GladiatorsFight.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_044_GladiatorsFight\obj\Debug\net7.0\HomeWork_044_GladiatorsFight.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_044_GladiatorsFight\obj\Debug\net7.0\HomeWork_044_GladiatorsFight.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_044_GladiatorsFight\obj\Debug\net7.0\HomeWork_044_GladiatorsFight.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_044_GladiatorsFight\obj\Debug\net7.0\HomeWork_044_GladiatorsFight.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_044_GladiatorsFight\obj\Debug\net7.0\refint\HomeWork_044_GladiatorsFight.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_044_GladiatorsFight\obj\Debug\net7.0\HomeWork_044_GladiatorsFight.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_044_GladiatorsFight\obj\Debug\net7.0\HomeWork_044_GladiatorsFight.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_044_GladiatorsFight\obj\Debug\net7.0\ref\HomeWork_044_GladiatorsFight.dll

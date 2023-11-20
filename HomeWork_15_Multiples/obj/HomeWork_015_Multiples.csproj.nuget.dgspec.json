@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_15_Multiples\\HomeWork_015_Multiples.csproj": {}
+    "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_15_Multiples\\HomeWork_015_Multiples.csproj": {}
   },
   "projects": {
-    "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_15_Multiples\\HomeWork_015_Multiples.csproj": {
+    "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_15_Multiples\\HomeWork_015_Multiples.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_15_Multiples\\HomeWork_015_Multiples.csproj",
+        "projectUniqueName": "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_15_Multiples\\HomeWork_015_Multiples.csproj",
         "projectName": "HomeWork_015_Multiples",
-        "projectPath": "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_15_Multiples\\HomeWork_015_Multiples.csproj",
+        "projectPath": "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_15_Multiples\\HomeWork_015_Multiples.csproj",
         "packagesPath": "C:\\Users\\Barlo\\.nuget\\packages\\",
-        "outputPath": "E:\\Хранилища\\IJunior_Homeworks\\HomeWork_15_Multiples\\obj\\",
+        "outputPath": "D:\\ProjectsU\\IJunior_Homeworks\\HomeWork_15_Multiples\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\VSCash\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Barlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

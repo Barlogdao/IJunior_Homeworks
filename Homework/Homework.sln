@@ -87,7 +87,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_041_BookStorage", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_042_Shop", "..\HomeWork_042_Shop\HomeWork_042_Shop.csproj", "{8AF328F1-F982-4188-9E93-799C9BE94A9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_043_TrainConfigurator", "..\HomeWork_043_TrainConfigurator\HomeWork_043_TrainConfigurator.csproj", "{F88C5B8F-291B-4CDD-BCC3-72972E1DE68E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_043_TrainConfigurator", "..\HomeWork_043_TrainConfigurator\HomeWork_043_TrainConfigurator.csproj", "{F88C5B8F-291B-4CDD-BCC3-72972E1DE68E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_044_GladiatorsFight", "..\HomeWork_044_GladiatorsFight\HomeWork_044_GladiatorsFight.csproj", "{E52A995E-A4DF-4303-AE95-A29C22E38A45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FE87F0DD-1A48-4C56-A062-74DD497CE5E4}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_045_Supermarket", "..\HomeWork_045_Supermarket\HomeWork_045_Supermarket.csproj", "{DD33BF50-17F1-4D95-8478-6478AB711ADD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -267,6 +276,14 @@ Global
 		{F88C5B8F-291B-4CDD-BCC3-72972E1DE68E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F88C5B8F-291B-4CDD-BCC3-72972E1DE68E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F88C5B8F-291B-4CDD-BCC3-72972E1DE68E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E52A995E-A4DF-4303-AE95-A29C22E38A45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E52A995E-A4DF-4303-AE95-A29C22E38A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E52A995E-A4DF-4303-AE95-A29C22E38A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E52A995E-A4DF-4303-AE95-A29C22E38A45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD33BF50-17F1-4D95-8478-6478AB711ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD33BF50-17F1-4D95-8478-6478AB711ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD33BF50-17F1-4D95-8478-6478AB711ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD33BF50-17F1-4D95-8478-6478AB711ADD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

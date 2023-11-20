@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_043_TrainConfigurator\bin\Debug\net7.0\HomeWork_043_TrainConfigurator.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_043_TrainConfigurator\bin\Debug\net7.0\HomeWork_043_TrainConfigurator.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_043_TrainConfigurator\bin\Debug\net7.0\HomeWork_043_TrainConfigurator.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_043_TrainConfigurator\bin\Debug\net7.0\HomeWork_043_TrainConfigurator.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_043_TrainConfigurator\bin\Debug\net7.0\HomeWork_043_TrainConfigurator.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_043_TrainConfigurator\obj\Debug\net7.0\HomeWork_043_TrainConfigurator.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_043_TrainConfigurator\obj\Debug\net7.0\HomeWork_043_TrainConfigurator.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_043_TrainConfigurator\obj\Debug\net7.0\HomeWork_043_TrainConfigurator.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_043_TrainConfigurator\obj\Debug\net7.0\HomeWork_043_TrainConfigurator.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_043_TrainConfigurator\obj\Debug\net7.0\HomeWork_043_TrainConfigurator.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_043_TrainConfigurator\obj\Debug\net7.0\HomeWork_043_TrainConfigurator.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_043_TrainConfigurator\obj\Debug\net7.0\refint\HomeWork_043_TrainConfigurator.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_043_TrainConfigurator\obj\Debug\net7.0\HomeWork_043_TrainConfigurator.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_043_TrainConfigurator\obj\Debug\net7.0\HomeWork_043_TrainConfigurator.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_043_TrainConfigurator\obj\Debug\net7.0\ref\HomeWork_043_TrainConfigurator.dll
