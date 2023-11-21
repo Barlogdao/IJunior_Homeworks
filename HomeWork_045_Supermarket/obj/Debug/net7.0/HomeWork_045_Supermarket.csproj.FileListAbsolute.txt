@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_045_Supermarket\bin\Debug\net7.0\HomeWork_045_Supermarket.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_045_Supermarket\bin\Debug\net7.0\HomeWork_045_Supermarket.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_045_Supermarket\bin\Debug\net7.0\HomeWork_045_Supermarket.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_045_Supermarket\bin\Debug\net7.0\HomeWork_045_Supermarket.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_045_Supermarket\bin\Debug\net7.0\HomeWork_045_Supermarket.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_045_Supermarket\obj\Debug\net7.0\HomeWork_045_Supermarket.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_045_Supermarket\obj\Debug\net7.0\HomeWork_045_Supermarket.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_045_Supermarket\obj\Debug\net7.0\HomeWork_045_Supermarket.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_045_Supermarket\obj\Debug\net7.0\HomeWork_045_Supermarket.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_045_Supermarket\obj\Debug\net7.0\HomeWork_045_Supermarket.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_045_Supermarket\obj\Debug\net7.0\HomeWork_045_Supermarket.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_045_Supermarket\obj\Debug\net7.0\refint\HomeWork_045_Supermarket.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_045_Supermarket\obj\Debug\net7.0\HomeWork_045_Supermarket.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_045_Supermarket\obj\Debug\net7.0\HomeWork_045_Supermarket.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_045_Supermarket\obj\Debug\net7.0\ref\HomeWork_045_Supermarket.dll
