@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_War\bin\Debug\net7.0\HomeWork_046_War.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_War\bin\Debug\net7.0\HomeWork_046_War.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_War\bin\Debug\net7.0\HomeWork_046_War.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_War\bin\Debug\net7.0\HomeWork_046_War.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_War\bin\Debug\net7.0\HomeWork_046_War.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_War\obj\Debug\net7.0\HomeWork_046_War.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_War\obj\Debug\net7.0\HomeWork_046_War.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_War\obj\Debug\net7.0\HomeWork_046_War.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_War\obj\Debug\net7.0\HomeWork_046_War.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_War\obj\Debug\net7.0\HomeWork_046_War.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_War\obj\Debug\net7.0\HomeWork_046_War.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_War\obj\Debug\net7.0\refint\HomeWork_046_War.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_War\obj\Debug\net7.0\HomeWork_046_War.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_War\obj\Debug\net7.0\HomeWork_046_War.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_War\obj\Debug\net7.0\ref\HomeWork_046_War.dll

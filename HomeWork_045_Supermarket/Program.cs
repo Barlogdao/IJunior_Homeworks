@@ -6,10 +6,10 @@
         {
             int minConsumerQueueSize = 5;
             int maxConsumerQueueSize = 10;
-            int consumerQueueSize = RandomProvider.Random.Next(minConsumerQueueSize, maxConsumerQueueSize + 1);
+            int consumerQueueSize = RandomUtils.GetRandomNumber(minConsumerQueueSize, maxConsumerQueueSize + 1);
 
             Supermarket supermarket = new Supermarket(consumerQueueSize);
-            supermarket.StartSell();
+            supermarket.ServeConsumers();
 
             Console.ReadKey();
         }
@@ -17,8 +17,8 @@
 
     public class Supermarket
     {
-        private int _money = 0;
         private readonly Queue<Consumer> _consumers = new();
+        private int _money = 0;
 
         public Supermarket(int consumerQueueSize)
         {
@@ -28,7 +28,7 @@
             }
         }
 
-        public void StartSell()
+        public void ServeConsumers()
         {
             int consumerCounter = 1;
 
@@ -69,13 +69,18 @@
 
     public class Consumer
     {
-        private int _money;
         private readonly List<Good> _cart;
+        private int _money;
 
-        public Consumer(int money, List<Good> cart)
+        public Consumer(int money, int cartSize)
         {
             _money = money;
-            _cart = cart;
+            _cart = new List<Good>(cartSize);
+
+            for (int i = 0; i < cartSize; i++)
+            {
+                _cart.Add(GoodGenerator.CreateGood());
+            }
         }
 
         public int GoodsAmount => _cart.Count;
@@ -89,7 +94,7 @@
                 if (_cart.Count == 0)
                 {
                     Console.WriteLine("Клиент бомжара и ничего не может купить");
-                    
+
                     return false;
                 }
 
@@ -116,7 +121,7 @@
 
         private void RemoveRandomGood()
         {
-            Good goodForRemove = _cart[RandomProvider.Random.Next(0, _cart.Count)];
+            Good goodForRemove = _cart[RandomUtils.GetRandomNumber(_cart.Count)];
 
             Console.WriteLine($"У клиента недостаточно денег. Клиент убрал из корзины {goodForRemove}");
 
@@ -148,19 +153,19 @@
 
     public static class ConsumerGenerator
     {
-        private static readonly int _minConsumerMoney = 500;
-        private static readonly int _maxConsumerMoney = 5000;
-        private static readonly int _minCartSize = 5;
-        private static readonly int _maxCartSize = 13;
+        private static readonly int s_minConsumerMoney = 500;
+        private static readonly int s_maxConsumerMoney = 5000;
+        private static readonly int s_minCartSize = 5;
+        private static readonly int s_maxCartSize = 13;
 
         public static Consumer CreateConsumer()
         {
-            return new Consumer(RandomProvider.Random.Next(_minConsumerMoney, _maxConsumerMoney + 1),
-                CartGenerator.CreateCart(RandomProvider.Random.Next(_minCartSize, _maxCartSize + 1)));
+            return new Consumer(RandomUtils.GetRandomNumber(s_minConsumerMoney, s_maxConsumerMoney + 1),
+                RandomUtils.GetRandomNumber(s_minCartSize, s_maxCartSize + 1));
         }
     }
 
-    public static class CartGenerator
+    public static class GoodGenerator
     {
         private static readonly Good[] _goods = new Good[]
         {
@@ -172,28 +177,24 @@
             new Good ("Часы", 400),
         };
 
-        public static List<Good> CreateCart(int cartSize)
+        public static Good CreateGood()
         {
-            List<Good> cart = new List<Good>(cartSize);
-
-            for (int i = 0; i < cartSize; i++)
-            {
-                cart.Add(GetGood());
-            }
-
-            return cart;
-        }
-
-        private static Good GetGood()
-        {
-            return _goods[RandomProvider.Random.Next(0, _goods.Length)].Clone();
+            return _goods[RandomUtils.GetRandomNumber(_goods.Length)].Clone();
         }
     }
 
-    public static class RandomProvider
+    public static class RandomUtils
     {
-        private static Random _random = new Random();
+        private static Random s_random = new Random();
 
-        public static Random Random => _random;
+        public static int GetRandomNumber(int maxValue)
+        {
+            return s_random.Next(maxValue);
+        }
+
+        public static int GetRandomNumber(int minValue, int maxValue)
+        {
+            return s_random.Next(minValue, maxValue);
+        }
     }
 }
