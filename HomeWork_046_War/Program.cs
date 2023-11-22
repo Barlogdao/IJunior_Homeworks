@@ -102,7 +102,7 @@
 
             target.TakeDamage(sourceType, damage);
 
-            if (!target.IsAlive)
+            if (target.IsAlive == false)
             {
                 Console.WriteLine($"{target.Name} из взвода {Name} умирает");
                 _soldiers.Remove(target);
@@ -125,33 +125,107 @@
         }
 
         public string Name { get; }
-        public int Damage { get; }
+        public int Damage { get; protected set; }
         public SoldierType Type { get; }
         public bool IsAlive => _health > 0;
 
-        public void TakeDamage(SoldierType sourceType, int damage)
+        public virtual void TakeDamage(SoldierType sourceType, int damage)
         {
-            int resultDamage = sourceType == _weaknessType ? damage * 2 : damage;
+            int totalDamage = sourceType == _weaknessType ? damage * 2 : damage;
 
-            Console.WriteLine($"{Name} получает {resultDamage} урона");
+            Console.WriteLine($"{Name} получает {totalDamage} урона");
 
-            _health -= resultDamage;
+            _health -= totalDamage;
         }
+
+        public abstract Soldier Clone();
     }
 
     public class Shooter : Soldier
     {
-        public Shooter() : base(6, 10, SoldierType.Shooter, SoldierType.Artillery, "Стрелок") { }
+        private readonly int _evadeChance;
+
+        public Shooter() : base(6, 10, SoldierType.Shooter, SoldierType.Artillery, "Стрелок")
+        {
+            _evadeChance = 15;
+        }
+
+        public override void TakeDamage(SoldierType sourceType, int damage)
+        {
+            if (TryToEvade() == true)
+            {
+                Console.WriteLine($"{Name} увернлулся от атаки");
+
+                return;
+            }
+
+            base.TakeDamage(sourceType, damage);
+        }
+
+        public override Soldier Clone()
+        {
+            return new Shooter();
+        }
+
+        private bool TryToEvade()
+        {
+            return RandomUtils.GetRandomPercentValue() <= _evadeChance;
+        }
     }
 
     public class Assault : Soldier
     {
-        public Assault() : base(4, 12, SoldierType.Assault, SoldierType.Shooter, "Штурмовик") { }
+        private bool _hasShield;
+
+        public Assault() : base(4, 12, SoldierType.Assault, SoldierType.Shooter, "Штурмовик")
+        {
+            _hasShield = true;
+        }
+
+        public override void TakeDamage(SoldierType sourceType, int damage)
+        {
+            if (_hasShield)
+            {
+                _hasShield = false;
+
+                Console.WriteLine($"{Name} использовал щит и предотвратил урон");
+
+                return;
+            }
+
+            base.TakeDamage(sourceType, damage);
+        }
+
+        public override Soldier Clone()
+        {
+            return new Assault();
+        }
     }
 
     public class Artillery : Soldier
     {
-        public Artillery() : base(8, 8, SoldierType.Artillery, SoldierType.Assault, "Артиллерия") { }
+        private readonly int _damageBonus;
+        public Artillery() : base(8, 9, SoldierType.Artillery, SoldierType.Assault, "Артиллерия") 
+        {
+            _damageBonus = 5;
+        }
+
+        public override void TakeDamage(SoldierType sourceType, int damage)
+        {
+            base.TakeDamage(sourceType, damage);
+
+            if (IsAlive)
+            {
+                Damage += _damageBonus;
+
+                Console.WriteLine($"{Name} входит в режим берсерка. Урон увеличивается на {_damageBonus}.");
+            }
+        }
+
+        public override Soldier Clone()
+        {
+            return new Artillery();
+        }
     }
 
     public enum SoldierType
@@ -178,17 +252,16 @@
 
     public static class SoldierFabric
     {
-        private static readonly int s_soldierTypesAmount = 3;
+        private static readonly Soldier[] s_soldiers = new Soldier[]
+        {
+            new Shooter(),
+            new Assault(),
+            new Artillery()
+        };
 
         public static Soldier CreateSoldier()
         {
-            return RandomUtils.GetRandomNumber(s_soldierTypesAmount) switch
-            {
-                0 => new Shooter(),
-                1 => new Assault(),
-                2 => new Artillery(),
-                _ => throw new Exception("Ошибка при создании солдата. Проверьте количество типов солдат"),
-            };
+            return s_soldiers[RandomUtils.GetRandomNumber(s_soldiers.Length)].Clone();
         }
     }
 
@@ -204,6 +277,11 @@
         public static int GetRandomNumber(int minValue, int maxValue)
         {
             return s_random.Next(minValue, maxValue);
+        }
+
+        public static int GetRandomPercentValue()
+        {
+            return (int)(s_random.NextDouble() * 100);
         }
     }
 }

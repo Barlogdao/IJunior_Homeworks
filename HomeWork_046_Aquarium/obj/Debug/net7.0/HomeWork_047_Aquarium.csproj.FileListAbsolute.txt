@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_Aquarium\bin\Debug\net7.0\HomeWork_047_Aquarium.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_Aquarium\bin\Debug\net7.0\HomeWork_047_Aquarium.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_Aquarium\bin\Debug\net7.0\HomeWork_047_Aquarium.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_Aquarium\bin\Debug\net7.0\HomeWork_047_Aquarium.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_Aquarium\bin\Debug\net7.0\HomeWork_047_Aquarium.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_Aquarium\obj\Debug\net7.0\HomeWork_047_Aquarium.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_Aquarium\obj\Debug\net7.0\HomeWork_047_Aquarium.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_Aquarium\obj\Debug\net7.0\HomeWork_047_Aquarium.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_Aquarium\obj\Debug\net7.0\HomeWork_047_Aquarium.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_Aquarium\obj\Debug\net7.0\HomeWork_047_Aquarium.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_Aquarium\obj\Debug\net7.0\HomeWork_047_Aquarium.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_Aquarium\obj\Debug\net7.0\refint\HomeWork_047_Aquarium.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_Aquarium\obj\Debug\net7.0\HomeWork_047_Aquarium.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_Aquarium\obj\Debug\net7.0\HomeWork_047_Aquarium.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_046_Aquarium\obj\Debug\net7.0\ref\HomeWork_047_Aquarium.dll

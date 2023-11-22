@@ -6,9 +6,10 @@
         {
             int minConsumerQueueSize = 5;
             int maxConsumerQueueSize = 10;
+            int stockSize = 150;
             int consumerQueueSize = RandomUtils.GetRandomNumber(minConsumerQueueSize, maxConsumerQueueSize + 1);
 
-            Supermarket supermarket = new Supermarket(consumerQueueSize);
+            Supermarket supermarket = new Supermarket(consumerQueueSize, stockSize);
             supermarket.ServeConsumers();
 
             Console.ReadKey();
@@ -18,13 +19,16 @@
     public class Supermarket
     {
         private readonly Queue<Consumer> _consumers = new();
+        private readonly Stock _stock;
         private int _money = 0;
 
-        public Supermarket(int consumerQueueSize)
+        public Supermarket(int consumerQueueSize, int stockSize)
         {
+            _stock = new Stock(stockSize);
+
             for (int i = 0; i < consumerQueueSize; i++)
             {
-                _consumers.Enqueue(ConsumerGenerator.CreateConsumer());
+                _consumers.Enqueue(ConsumerGenerator.CreateConsumer(_stock));
             }
         }
 
@@ -44,6 +48,7 @@
                 SellGoods(_consumers.Dequeue());
 
                 Console.WriteLine($"В кассе супермаркета {_money} рублей");
+                Console.WriteLine($"На складе супермаркета {_stock.Size} свободных товаров");
 
                 WaitForInput();
             }
@@ -67,19 +72,58 @@
         }
     }
 
+    public class Stock
+    {
+        private readonly List<Good> _goods;
+
+        public Stock(int stockSize)
+        {
+            _goods = new List<Good>();
+
+            for (int i = 0; i < stockSize; i++)
+            {
+                _goods.Add(GoodGenerator.CreateGood());
+            }
+        }
+
+        public int Size => _goods.Count;
+        public bool HasGoods => _goods.Count > 0;
+
+        public Good ReserveGood()
+        {
+            Good good = _goods[RandomUtils.GetRandomNumber(_goods.Count)];
+            _goods.Remove(good);
+            return good;
+        }
+
+        public void ReturnGood(Good good)
+        {
+            _goods.Add(good);
+        }
+    }
+
     public class Consumer
     {
         private readonly List<Good> _cart;
+        private readonly Stock _stock;
         private int _money;
 
-        public Consumer(int money, int cartSize)
+        public Consumer(int money, int cartSize, Stock stock)
         {
             _money = money;
+            _stock = stock;
             _cart = new List<Good>(cartSize);
 
             for (int i = 0; i < cartSize; i++)
             {
-                _cart.Add(GoodGenerator.CreateGood());
+                if (_stock.HasGoods)
+                {
+                    _cart.Add(_stock.ReserveGood());
+                }
+                else
+                {
+                    break;
+                }
             }
         }
 
@@ -89,11 +133,11 @@
         {
             moneySpend = 0;
 
-            while (_money < GetCartSum())
+            while (_money < GetTotalGoodsPrice())
             {
                 if (_cart.Count == 0)
                 {
-                    Console.WriteLine("Клиент бомжара и ничего не может купить");
+                    Console.WriteLine("Клиент уходит ничего не купив");
 
                     return false;
                 }
@@ -101,44 +145,45 @@
                 RemoveRandomGood();
             }
 
-            moneySpend = GetCartSum();
+            moneySpend = GetTotalGoodsPrice();
             _money -= moneySpend;
 
             return true;
         }
 
-        private int GetCartSum()
+        private int GetTotalGoodsPrice()
         {
-            int totalSum = 0;
+            int totalPrice = 0;
 
             foreach (Good good in _cart)
             {
-                totalSum += good.Price;
+                totalPrice += good.Price;
             }
 
-            return totalSum;
+            return totalPrice;
         }
 
         private void RemoveRandomGood()
         {
-            Good goodForRemove = _cart[RandomUtils.GetRandomNumber(_cart.Count)];
+            Good good = _cart[RandomUtils.GetRandomNumber(_cart.Count)];
 
-            Console.WriteLine($"У клиента недостаточно денег. Клиент убрал из корзины {goodForRemove}");
+            Console.WriteLine($"У клиента недостаточно денег. Клиент убрал из корзины {good}");
 
-            _cart.Remove(goodForRemove);
+            _stock.ReturnGood(good);
+            _cart.Remove(good);
         }
     }
 
     public class Good
     {
-        public readonly string Name;
-        public readonly int Price;
-
         public Good(string name, int price)
         {
             Name = name;
             Price = price;
         }
+
+        public string Name { get; }
+        public int Price { get; }
 
         public Good Clone()
         {
@@ -158,10 +203,10 @@
         private static readonly int s_minCartSize = 5;
         private static readonly int s_maxCartSize = 13;
 
-        public static Consumer CreateConsumer()
+        public static Consumer CreateConsumer(Stock stock)
         {
             return new Consumer(RandomUtils.GetRandomNumber(s_minConsumerMoney, s_maxConsumerMoney + 1),
-                RandomUtils.GetRandomNumber(s_minCartSize, s_maxCartSize + 1));
+                RandomUtils.GetRandomNumber(s_minCartSize, s_maxCartSize + 1), stock);
         }
     }
 
