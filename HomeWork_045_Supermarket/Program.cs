@@ -64,9 +64,12 @@
 
         private void SellGoods(Consumer consumer)
         {
-            if (consumer.TryBuyGoods(out int earnedMoney))
+            int earnedMoney = consumer.BuyGoods(_stock.AddGood);
+
+            if (earnedMoney > 0)
             {
                 _money += earnedMoney;
+
                 Console.WriteLine($"Клиент купил {consumer.GoodsAmount} товаров на {earnedMoney} рублей");
             }
         }
@@ -93,10 +96,11 @@
         {
             Good good = _goods[RandomUtils.GetRandomNumber(_goods.Count)];
             _goods.Remove(good);
+
             return good;
         }
 
-        public void ReturnGood(Good good)
+        public void AddGood(Good good)
         {
             _goods.Add(good);
         }
@@ -105,20 +109,18 @@
     public class Consumer
     {
         private readonly List<Good> _cart;
-        private readonly Stock _stock;
         private int _money;
 
         public Consumer(int money, int cartSize, Stock stock)
         {
             _money = money;
-            _stock = stock;
             _cart = new List<Good>(cartSize);
 
             for (int i = 0; i < cartSize; i++)
             {
-                if (_stock.HasGoods)
+                if (stock.HasGoods)
                 {
-                    _cart.Add(_stock.ReserveGood());
+                    _cart.Add(stock.ReserveGood());
                 }
                 else
                 {
@@ -129,9 +131,9 @@
 
         public int GoodsAmount => _cart.Count;
 
-        public bool TryBuyGoods(out int moneySpend)
+        public int BuyGoods(Action<Good> returnToStock)
         {
-            moneySpend = 0;
+            int moneySpend = 0;
 
             while (_money < GetTotalGoodsPrice())
             {
@@ -139,16 +141,16 @@
                 {
                     Console.WriteLine("Клиент уходит ничего не купив");
 
-                    return false;
+                    return moneySpend;
                 }
 
-                RemoveRandomGood();
+                RemoveRandomGood(returnToStock);
             }
 
             moneySpend = GetTotalGoodsPrice();
             _money -= moneySpend;
 
-            return true;
+            return moneySpend;
         }
 
         private int GetTotalGoodsPrice()
@@ -163,13 +165,13 @@
             return totalPrice;
         }
 
-        private void RemoveRandomGood()
+        private void RemoveRandomGood(Action<Good> returnToStock)
         {
             Good good = _cart[RandomUtils.GetRandomNumber(_cart.Count)];
 
             Console.WriteLine($"У клиента недостаточно денег. Клиент убрал из корзины {good}");
 
-            _stock.ReturnGood(good);
+            returnToStock(good);
             _cart.Remove(good);
         }
     }
@@ -198,33 +200,38 @@
 
     public static class ConsumerGenerator
     {
-        private static readonly int s_minConsumerMoney = 500;
-        private static readonly int s_maxConsumerMoney = 5000;
-        private static readonly int s_minCartSize = 5;
-        private static readonly int s_maxCartSize = 13;
-
         public static Consumer CreateConsumer(Stock stock)
         {
-            return new Consumer(RandomUtils.GetRandomNumber(s_minConsumerMoney, s_maxConsumerMoney + 1),
-                RandomUtils.GetRandomNumber(s_minCartSize, s_maxCartSize + 1), stock);
+            int minConsumerMoney = 500;
+            int maxConsumerMoney = 5000;
+            int minCartSize = 5;
+            int maxCartSize = 13;
+
+            return new Consumer(RandomUtils.GetRandomNumber(minConsumerMoney, maxConsumerMoney + 1),
+                RandomUtils.GetRandomNumber(minCartSize, maxCartSize + 1), stock);
         }
     }
 
     public static class GoodGenerator
     {
-        private static readonly Good[] _goods = new Good[]
+        private static readonly Good[] s_goods;
+
+        static GoodGenerator()
         {
-            new Good ("Лук", 20),
-            new Good ("Помидор", 50),
-            new Good ("Компьютер", 500),
-            new Good ("Спинер", 300),
-            new Good ("Топор", 90),
-            new Good ("Часы", 400),
-        };
+            s_goods = new Good[]
+            {
+                new Good ("Лук", 20),
+                new Good ("Помидор", 50),
+                new Good ("Компьютер", 500),
+                new Good ("Спинер", 300),
+                new Good ("Топор", 90),
+                new Good ("Часы", 400),
+            };
+        }
 
         public static Good CreateGood()
         {
-            return _goods[RandomUtils.GetRandomNumber(_goods.Length)].Clone();
+            return s_goods[RandomUtils.GetRandomNumber(s_goods.Length)].Clone();
         }
     }
 

@@ -5,9 +5,75 @@
         static void Main(string[] args)
         {
             int fishAmount = 4;
+            
             Aquarium aquarium = new Aquarium(fishAmount);
+            AquariumMediator aquariumMediator = new AquariumMediator(aquarium);
 
-            aquarium.Cycle();
+            aquariumMediator.Interact();
+        }
+    }
+
+    public class AquariumMediator
+    {
+        private readonly Aquarium _aquarium;
+
+        public AquariumMediator(Aquarium aquarium)
+        {
+            _aquarium = aquarium;
+        }
+
+        public void Interact()
+        {
+            const string CommandAddFish = "1";
+            const string CommandRemoveFish = "2";
+            const string CommandWait = "3";
+            const string CommandExit = "0";
+
+            string commandMessage = $"\nВведите команду:" +
+                $"\n[{CommandAddFish}] - Добавить рыбку в аквариум." +
+                $"\n[{CommandRemoveFish}] - Убрать рыбку из аквариума." +
+                $"\n[{CommandWait}] - Подождать." +
+                $"\n[{CommandExit}] - Выйти" +
+                $"\n";
+            bool isRun = true;
+
+            while (isRun)
+            {
+                _aquarium.DisplayInfo();
+
+                Console.WriteLine(commandMessage);
+
+                Console.Write("Ваш выбор: ");
+                string input = Console.ReadLine();
+
+                switch (input)
+                {
+                    case CommandAddFish:
+                        _aquarium.AddFish();
+                        break;
+
+                    case CommandRemoveFish:
+                        _aquarium.RemoveFish();
+                        break;
+
+                    case CommandWait:
+                        _aquarium.Tick();
+                        break;
+
+                    case CommandExit:
+                        isRun = false;
+                        break;
+
+                    default:
+                        Console.WriteLine("Введена невереная команда!");
+                        break;
+                }
+
+                Console.WriteLine("Нажмите любую клавишу чтобы продолжить");
+                Console.ReadKey();
+
+                Console.Clear();
+            }
         }
     }
 
@@ -29,62 +95,6 @@
 
         public bool HasSpace => _fishes.Count < _capacity;
 
-        public void Cycle()
-        {
-            const string CommandAddFish = "1";
-            const string CommandRemoveFish = "2";
-            const string CommandWait = "3";
-            const string CommandExit = "0";
-
-            string commandMessage = $"\nВведите команду:" +
-                $"\n[{CommandAddFish}] - Добавить рыбку в аквариум." +
-                $"\n[{CommandRemoveFish}] - Убрать рыбку из аквариума." +
-                $"\n[{CommandWait}] - Подождать." +
-                $"\n[{CommandExit}] - Выйти" +
-                $"\n";
-            bool isRun = true;
-
-            while (isRun)
-            {
-                DisplayInfo();
-
-                Console.WriteLine(commandMessage);
-
-                Console.Write("Ваш выбор: ");
-                string input = Console.ReadLine();
-
-                switch (input)
-                {
-                    case CommandAddFish:
-                        AddFish();
-                        break;
-
-                    case CommandRemoveFish:
-                        RemoveFish();
-                        break;
-
-                    case CommandWait:
-                        Tick();
-                        break;
-
-                    case CommandExit:
-                        isRun = false;
-                        break;
-
-                    default:
-                        Console.WriteLine("Введена невреная команда!");
-                        break;
-                }
-
-                Console.WriteLine("Нажмите любую клавишу чтобы продолжить");
-                Console.ReadKey();
-
-                
-
-                Console.Clear();
-            }
-        }
-
         public void AddFish()
         {
             if (HasSpace)
@@ -92,7 +102,7 @@
                 Fish fish = FishFabric.CreateFish();
                 _fishes.Add(fish);
 
-                Console.WriteLine($"Вы поместили в аквариум {fish.Name}");
+                Console.WriteLine($"Рыбка {fish.Name} помещена в аквариум");
             }
             else
             {
@@ -112,7 +122,7 @@
             Fish fish = ChooseFish();
             _fishes.Remove(fish);
 
-            Console.WriteLine($"Вы вынули {fish.Name}");
+            Console.WriteLine($"Рыбка {fish.Name} вынута из аквариума");
         }
 
         public void Tick()
@@ -173,24 +183,6 @@
         }
     }
 
-
-    public static class FishFabric
-    {
-        private static readonly int s_minAge = 1;
-        private static readonly int s_maxAge = 3;
-        private static readonly int s_minOldnessAge = 8;
-        private static readonly int s_maxOldnessAge = 10;
-
-        private static readonly string[] s_fishNames = new string[] { "Дори", "Партос", "Кукуй", "Миска", "Плывун", "Лизун", "Мидас" };
-
-        public static Fish CreateFish()
-        {
-            return new Fish(RandomUtils.GetRandomNumber(s_minAge, s_maxAge),
-                            RandomUtils.GetRandomNumber(s_minOldnessAge, s_maxOldnessAge),
-                            s_fishNames[RandomUtils.GetRandomNumber(s_fishNames.Length)]);
-        }
-    }
-
     public class Fish
     {
         private static int s_DeathChance = 20;
@@ -208,11 +200,6 @@
         }
 
         public string Name { get; }
-
-        public override string ToString()
-        {
-            return $"рыбка {Name}. Возраст {_age} лет. Статус: {GetStatus()}";
-        }
 
         public void Tick()
         {
@@ -247,6 +234,22 @@
         private void Die()
         {
             _isDead = true;
+        }
+    }
+
+    public static class FishFabric
+    {
+        private static readonly int s_minAge = 1;
+        private static readonly int s_maxAge = 3;
+        private static readonly int s_minOldnessAge = 8;
+        private static readonly int s_maxOldnessAge = 10;
+        private static readonly string[] s_fishNames = new string[] { "Дори", "Партос", "Кукуй", "Миска", "Плывун", "Лизун", "Мидас" };
+
+        public static Fish CreateFish()
+        {
+            return new Fish(RandomUtils.GetRandomNumber(s_minAge, s_maxAge),
+                            RandomUtils.GetRandomNumber(s_minOldnessAge, s_maxOldnessAge),
+                            s_fishNames[RandomUtils.GetRandomNumber(s_fishNames.Length)]);
         }
     }
 

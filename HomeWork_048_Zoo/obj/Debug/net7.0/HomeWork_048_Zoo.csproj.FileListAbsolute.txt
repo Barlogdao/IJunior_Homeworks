@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_048_Zoo\bin\Debug\net7.0\HomeWork_048_Zoo.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_048_Zoo\bin\Debug\net7.0\HomeWork_048_Zoo.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_048_Zoo\bin\Debug\net7.0\HomeWork_048_Zoo.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_048_Zoo\bin\Debug\net7.0\HomeWork_048_Zoo.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_048_Zoo\bin\Debug\net7.0\HomeWork_048_Zoo.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_048_Zoo\obj\Debug\net7.0\HomeWork_048_Zoo.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_048_Zoo\obj\Debug\net7.0\HomeWork_048_Zoo.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_048_Zoo\obj\Debug\net7.0\HomeWork_048_Zoo.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_048_Zoo\obj\Debug\net7.0\HomeWork_048_Zoo.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_048_Zoo\obj\Debug\net7.0\HomeWork_048_Zoo.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_048_Zoo\obj\Debug\net7.0\HomeWork_048_Zoo.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_048_Zoo\obj\Debug\net7.0\refint\HomeWork_048_Zoo.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_048_Zoo\obj\Debug\net7.0\HomeWork_048_Zoo.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_048_Zoo\obj\Debug\net7.0\HomeWork_048_Zoo.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_048_Zoo\obj\Debug\net7.0\ref\HomeWork_048_Zoo.dll
