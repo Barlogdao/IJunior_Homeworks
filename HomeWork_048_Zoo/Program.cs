@@ -42,9 +42,8 @@
             {
                 Console.WriteLine("\nВы стоите на центральной площади. Вдалеке видны вольеры с животными");
 
-                Console.WriteLine($"Введите номер вольера от [1] до [{_aviaries.Count}], чтобы подойдти поближе" +
-                    $"\nили {CommandExit} для выхода из зоопарка");
-
+                Console.Write($"Введите номер вольера от [1] до [{_aviaries.Count}], чтобы подойдти поближе" +
+                    $"\nили [{CommandExit}] для выхода из зоопарка ");
                 string input = Console.ReadLine();
 
                 if (input == CommandExit)
@@ -119,6 +118,7 @@
         private int CountAnimalsByGender(Gender gender)
         {
             int counter = 0;
+
             foreach (Animal animal in _animals)
             {
                 if (animal.Gender == gender)
@@ -126,12 +126,20 @@
                     counter++;
                 };
             }
+
             return counter;
         }
     }
 
     public abstract class Animal
     {
+        private static Gender[] s_genders; 
+
+        static Animal()
+        {
+            s_genders = new Gender[] { Gender.Male, Gender.Female };
+        }            
+
         public Animal(string type, string sound)
         {
             Type = type;
@@ -147,14 +155,7 @@
 
         private Gender GetRandomGender()
         {
-            int gendersAmount = 2;
-
-            return RandomUtils.GetRandomNumber(gendersAmount) switch
-            {
-                0 => Gender.Male,
-                1 => Gender.Female,
-                _ => Gender.Male,
-            };
+            return s_genders[RandomUtils.GetRandomNumber(s_genders.Length)];
         }
     }
 
