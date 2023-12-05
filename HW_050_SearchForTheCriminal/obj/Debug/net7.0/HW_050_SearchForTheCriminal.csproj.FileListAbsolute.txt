@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HW_050_SearchForTheCriminal\obj\Debug\net7.0\HW_050_SearchForTheCriminal.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HW_050_SearchForTheCriminal\obj\Debug\net7.0\HW_050_SearchForTheCriminal.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HW_050_SearchForTheCriminal\obj\Debug\net7.0\HW_050_SearchForTheCriminal.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HW_050_SearchForTheCriminal\obj\Debug\net7.0\HW_050_SearchForTheCriminal.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HW_050_SearchForTheCriminal\obj\Debug\net7.0\HW_050_SearchForTheCriminal.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HW_050_SearchForTheCriminal\bin\Debug\net7.0\HW_050_SearchForTheCriminal.exe
+D:\ProjectsU\IJunior_Homeworks\HW_050_SearchForTheCriminal\bin\Debug\net7.0\HW_050_SearchForTheCriminal.deps.json
+D:\ProjectsU\IJunior_Homeworks\HW_050_SearchForTheCriminal\bin\Debug\net7.0\HW_050_SearchForTheCriminal.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HW_050_SearchForTheCriminal\bin\Debug\net7.0\HW_050_SearchForTheCriminal.dll
+D:\ProjectsU\IJunior_Homeworks\HW_050_SearchForTheCriminal\bin\Debug\net7.0\HW_050_SearchForTheCriminal.pdb
+D:\ProjectsU\IJunior_Homeworks\HW_050_SearchForTheCriminal\obj\Debug\net7.0\HW_050_SearchForTheCriminal.dll
+D:\ProjectsU\IJunior_Homeworks\HW_050_SearchForTheCriminal\obj\Debug\net7.0\refint\HW_050_SearchForTheCriminal.dll
+D:\ProjectsU\IJunior_Homeworks\HW_050_SearchForTheCriminal\obj\Debug\net7.0\HW_050_SearchForTheCriminal.pdb
+D:\ProjectsU\IJunior_Homeworks\HW_050_SearchForTheCriminal\obj\Debug\net7.0\HW_050_SearchForTheCriminal.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HW_050_SearchForTheCriminal\obj\Debug\net7.0\ref\HW_050_SearchForTheCriminal.dll

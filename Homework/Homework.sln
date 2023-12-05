@@ -96,15 +96,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_045_Supermarket", "..\HomeWork_045_Supermarket\HomeWork_045_Supermarket.csproj", "{DD33BF50-17F1-4D95-8478-6478AB711ADD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_045_Supermarket", "..\HomeWork_045_Supermarket\HomeWork_045_Supermarket.csproj", "{DD33BF50-17F1-4D95-8478-6478AB711ADD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_046_War", "..\HomeWork_046_War\HomeWork_046_War.csproj", "{E1892CC5-EB29-497A-BDF2-2DDE74115A56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_046_War", "..\HomeWork_046_War\HomeWork_046_War.csproj", "{E1892CC5-EB29-497A-BDF2-2DDE74115A56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_047_Aquarium", "..\HomeWork_046_Aquarium\HomeWork_047_Aquarium.csproj", "{43A8417E-808B-491D-93CE-628C48C13DE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_047_Aquarium", "..\HomeWork_046_Aquarium\HomeWork_047_Aquarium.csproj", "{43A8417E-808B-491D-93CE-628C48C13DE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_048_Zoo", "..\HomeWork_048_Zoo\HomeWork_048_Zoo.csproj", "{C37DDD01-AF57-4438-AD28-6C3CD0316299}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_048_Zoo", "..\HomeWork_048_Zoo\HomeWork_048_Zoo.csproj", "{C37DDD01-AF57-4438-AD28-6C3CD0316299}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_049_CarService", "..\HomeWork_049_CarService\HomeWork_049_CarService.csproj", "{273E96F4-F993-427E-8119-56DC61E9F494}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_049_CarService", "..\HomeWork_049_CarService\HomeWork_049_CarService.csproj", "{273E96F4-F993-427E-8119-56DC61E9F494}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "..\Test\Test.csproj", "{63BE4BB2-48A2-42B3-8BB8-72B5B74E98E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW_050_SearchForTheCriminal", "..\HW_050_SearchForTheCriminal\HW_050_SearchForTheCriminal.csproj", "{A67B35C9-6161-4D00-BA5B-D02759D860E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW_051_Amnesty", "..\HW_051_Amnesty\HW_051_Amnesty.csproj", "{2BD47541-B828-4D99-9A17-7E3B6A21B637}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -308,6 +314,18 @@ Global
 		{273E96F4-F993-427E-8119-56DC61E9F494}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{273E96F4-F993-427E-8119-56DC61E9F494}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{273E96F4-F993-427E-8119-56DC61E9F494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63BE4BB2-48A2-42B3-8BB8-72B5B74E98E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63BE4BB2-48A2-42B3-8BB8-72B5B74E98E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63BE4BB2-48A2-42B3-8BB8-72B5B74E98E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63BE4BB2-48A2-42B3-8BB8-72B5B74E98E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A67B35C9-6161-4D00-BA5B-D02759D860E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67B35C9-6161-4D00-BA5B-D02759D860E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67B35C9-6161-4D00-BA5B-D02759D860E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67B35C9-6161-4D00-BA5B-D02759D860E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BD47541-B828-4D99-9A17-7E3B6A21B637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD47541-B828-4D99-9A17-7E3B6A21B637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD47541-B828-4D99-9A17-7E3B6A21B637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD47541-B828-4D99-9A17-7E3B6A21B637}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

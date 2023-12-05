@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HW_051_Amnesty\bin\Debug\net7.0\HW_051_Amnesty.exe
+D:\ProjectsU\IJunior_Homeworks\HW_051_Amnesty\bin\Debug\net7.0\HW_051_Amnesty.deps.json
+D:\ProjectsU\IJunior_Homeworks\HW_051_Amnesty\bin\Debug\net7.0\HW_051_Amnesty.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HW_051_Amnesty\bin\Debug\net7.0\HW_051_Amnesty.dll
+D:\ProjectsU\IJunior_Homeworks\HW_051_Amnesty\bin\Debug\net7.0\HW_051_Amnesty.pdb
+D:\ProjectsU\IJunior_Homeworks\HW_051_Amnesty\obj\Debug\net7.0\HW_051_Amnesty.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HW_051_Amnesty\obj\Debug\net7.0\HW_051_Amnesty.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HW_051_Amnesty\obj\Debug\net7.0\HW_051_Amnesty.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HW_051_Amnesty\obj\Debug\net7.0\HW_051_Amnesty.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HW_051_Amnesty\obj\Debug\net7.0\HW_051_Amnesty.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HW_051_Amnesty\obj\Debug\net7.0\HW_051_Amnesty.dll
+D:\ProjectsU\IJunior_Homeworks\HW_051_Amnesty\obj\Debug\net7.0\refint\HW_051_Amnesty.dll
+D:\ProjectsU\IJunior_Homeworks\HW_051_Amnesty\obj\Debug\net7.0\HW_051_Amnesty.pdb
+D:\ProjectsU\IJunior_Homeworks\HW_051_Amnesty\obj\Debug\net7.0\HW_051_Amnesty.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HW_051_Amnesty\obj\Debug\net7.0\ref\HW_051_Amnesty.dll

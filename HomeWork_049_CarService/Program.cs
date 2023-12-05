@@ -130,7 +130,7 @@
         {
             _details = new Dictionary<Detail, int>();
 
-            foreach (Detail detail in DetailsGenerator.GetAllDetails())
+            foreach (Detail detail in DetailsGenerator.AllDetails)
             {
                 _details.Add(detail.Clone(), GetRandomDetailAmount());
             }
@@ -183,6 +183,7 @@
         {
             int minDetailsAmount = 1;
             int maxDetailsAmount = 2;
+
             return RandomUtils.GetRandomNumber(minDetailsAmount, maxDetailsAmount + 1);
         }
     }
@@ -191,14 +192,23 @@
     {
         public Car()
         {
-            BrokenDetail = DetailsGenerator.GetRandomDetail();
+            BrokenDetail = DetailsGenerator.CreateRandomDetail();
         }
 
-        public Detail BrokenDetail { get; }
+        public Detail BrokenDetail { get; private set; }
 
         public bool TryRepair(Detail detail)
         {
-            return BrokenDetail.Name == detail.Name;
+            if (BrokenDetail.Name == detail.Name)
+            {
+                BrokenDetail = detail;
+
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 
@@ -235,12 +245,9 @@
             };
         }
 
-        public static IEnumerable<Detail> GetAllDetails()
-        {
-            return s_details;
-        }
+        public static IEnumerable<Detail> AllDetails => s_details;
 
-        public static Detail GetRandomDetail()
+        public static Detail CreateRandomDetail()
         {
             return s_details[RandomUtils.GetRandomNumber(s_details.Length)].Clone();
         }
