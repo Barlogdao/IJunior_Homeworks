@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_056_ArmyUnion\bin\Debug\net7.0\HomeWork_056_ArmyUnion.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_056_ArmyUnion\bin\Debug\net7.0\HomeWork_056_ArmyUnion.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_056_ArmyUnion\bin\Debug\net7.0\HomeWork_056_ArmyUnion.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_056_ArmyUnion\bin\Debug\net7.0\HomeWork_056_ArmyUnion.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_056_ArmyUnion\bin\Debug\net7.0\HomeWork_056_ArmyUnion.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_056_ArmyUnion\obj\Debug\net7.0\HomeWork_056_ArmyUnion.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_056_ArmyUnion\obj\Debug\net7.0\HomeWork_056_ArmyUnion.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_056_ArmyUnion\obj\Debug\net7.0\HomeWork_056_ArmyUnion.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_056_ArmyUnion\obj\Debug\net7.0\HomeWork_056_ArmyUnion.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_056_ArmyUnion\obj\Debug\net7.0\HomeWork_056_ArmyUnion.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_056_ArmyUnion\obj\Debug\net7.0\HomeWork_056_ArmyUnion.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_056_ArmyUnion\obj\Debug\net7.0\refint\HomeWork_056_ArmyUnion.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_056_ArmyUnion\obj\Debug\net7.0\HomeWork_056_ArmyUnion.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_056_ArmyUnion\obj\Debug\net7.0\HomeWork_056_ArmyUnion.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_056_ArmyUnion\obj\Debug\net7.0\ref\HomeWork_056_ArmyUnion.dll
