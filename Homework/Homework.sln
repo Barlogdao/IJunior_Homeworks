@@ -112,6 +112,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW_050_SearchForTheCriminal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW_051_Amnesty", "..\HW_051_Amnesty\HW_051_Amnesty.csproj", "{2BD47541-B828-4D99-9A17-7E3B6A21B637}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW_052_AnarchyInTheHospital", "..\HW_052_AnarchyInTheHospital\HW_052_AnarchyInTheHospital.csproj", "{BDE02B08-BFE5-48A5-8467-BF03A89C65A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -326,6 +328,10 @@ Global
 		{2BD47541-B828-4D99-9A17-7E3B6A21B637}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BD47541-B828-4D99-9A17-7E3B6A21B637}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BD47541-B828-4D99-9A17-7E3B6A21B637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDE02B08-BFE5-48A5-8467-BF03A89C65A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE02B08-BFE5-48A5-8467-BF03A89C65A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE02B08-BFE5-48A5-8467-BF03A89C65A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE02B08-BFE5-48A5-8467-BF03A89C65A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

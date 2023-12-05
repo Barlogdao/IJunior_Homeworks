@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HW_052_AnarchyInTheHospital\bin\Debug\net7.0\HW_052_AnarchyInTheHospital.exe
+D:\ProjectsU\IJunior_Homeworks\HW_052_AnarchyInTheHospital\bin\Debug\net7.0\HW_052_AnarchyInTheHospital.deps.json
+D:\ProjectsU\IJunior_Homeworks\HW_052_AnarchyInTheHospital\bin\Debug\net7.0\HW_052_AnarchyInTheHospital.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HW_052_AnarchyInTheHospital\bin\Debug\net7.0\HW_052_AnarchyInTheHospital.dll
+D:\ProjectsU\IJunior_Homeworks\HW_052_AnarchyInTheHospital\bin\Debug\net7.0\HW_052_AnarchyInTheHospital.pdb
+D:\ProjectsU\IJunior_Homeworks\HW_052_AnarchyInTheHospital\obj\Debug\net7.0\HW_052_AnarchyInTheHospital.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HW_052_AnarchyInTheHospital\obj\Debug\net7.0\HW_052_AnarchyInTheHospital.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HW_052_AnarchyInTheHospital\obj\Debug\net7.0\HW_052_AnarchyInTheHospital.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HW_052_AnarchyInTheHospital\obj\Debug\net7.0\HW_052_AnarchyInTheHospital.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HW_052_AnarchyInTheHospital\obj\Debug\net7.0\HW_052_AnarchyInTheHospital.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HW_052_AnarchyInTheHospital\obj\Debug\net7.0\HW_052_AnarchyInTheHospital.dll
+D:\ProjectsU\IJunior_Homeworks\HW_052_AnarchyInTheHospital\obj\Debug\net7.0\refint\HW_052_AnarchyInTheHospital.dll
+D:\ProjectsU\IJunior_Homeworks\HW_052_AnarchyInTheHospital\obj\Debug\net7.0\HW_052_AnarchyInTheHospital.pdb
+D:\ProjectsU\IJunior_Homeworks\HW_052_AnarchyInTheHospital\obj\Debug\net7.0\HW_052_AnarchyInTheHospital.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HW_052_AnarchyInTheHospital\obj\Debug\net7.0\ref\HW_052_AnarchyInTheHospital.dll

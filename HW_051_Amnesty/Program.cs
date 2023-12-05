@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             int prisonersAmount = 10;
+            string crimeType = PrisonerFactory.CrimeTypes[0];
 
             List<Prisoner> prisoners = new();
 
@@ -15,14 +16,18 @@
 
             Console.WriteLine("Список преступников до амнистии:");
 
-            foreach(Prisoner prisoner in prisoners)
-                Console.WriteLine(prisoner);
+            ShowPrisoners(prisoners);
 
-            prisoners = prisoners.Where(prisoner => prisoner.CrimeType != "Антиправительственное").ToList();
+            prisoners = prisoners.Where(prisoner => prisoner.CrimeType != crimeType).ToList();
 
             Console.WriteLine("\nОглашена амнистия\n");
             Console.WriteLine("Список преступников после амнистии:");
 
+            ShowPrisoners(prisoners);
+        }
+
+        static void ShowPrisoners(IEnumerable<Prisoner> prisoners)
+        {
             foreach (Prisoner prisoner in prisoners)
                 Console.WriteLine(prisoner);
         }
@@ -47,6 +52,8 @@
 
     public static class PrisonerFactory
     {
+        public const string ANTI = "Антиправительственное";
+
         private readonly static string[] s_names;
         private readonly static string[] s_crimeTypes;
 
@@ -55,6 +62,8 @@
             s_names = new string[] { "Кларк Кент", "Иван Иванов", "Александр Петров", "Семен Слепаков" };
             s_crimeTypes = new string[] { "Антиправительственное", "Административное", "Гражданское", "Уголовное" };
         }
+
+        public static string[] CrimeTypes => s_crimeTypes;
 
         public static Prisoner CreatePrisoner()
         {
