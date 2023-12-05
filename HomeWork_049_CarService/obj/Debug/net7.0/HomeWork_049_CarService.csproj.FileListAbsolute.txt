@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HomeWork_049_CarService\bin\Debug\net7.0\HomeWork_049_CarService.exe
+D:\ProjectsU\IJunior_Homeworks\HomeWork_049_CarService\bin\Debug\net7.0\HomeWork_049_CarService.deps.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_049_CarService\bin\Debug\net7.0\HomeWork_049_CarService.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HomeWork_049_CarService\bin\Debug\net7.0\HomeWork_049_CarService.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_049_CarService\bin\Debug\net7.0\HomeWork_049_CarService.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_049_CarService\obj\Debug\net7.0\HomeWork_049_CarService.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_049_CarService\obj\Debug\net7.0\HomeWork_049_CarService.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HomeWork_049_CarService\obj\Debug\net7.0\HomeWork_049_CarService.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_049_CarService\obj\Debug\net7.0\HomeWork_049_CarService.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HomeWork_049_CarService\obj\Debug\net7.0\HomeWork_049_CarService.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_049_CarService\obj\Debug\net7.0\HomeWork_049_CarService.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_049_CarService\obj\Debug\net7.0\refint\HomeWork_049_CarService.dll
+D:\ProjectsU\IJunior_Homeworks\HomeWork_049_CarService\obj\Debug\net7.0\HomeWork_049_CarService.pdb
+D:\ProjectsU\IJunior_Homeworks\HomeWork_049_CarService\obj\Debug\net7.0\HomeWork_049_CarService.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HomeWork_049_CarService\obj\Debug\net7.0\ref\HomeWork_049_CarService.dll
