@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HW_055_WeaponsReport\bin\Debug\net7.0\HW_055_WeaponsReport.exe
+D:\ProjectsU\IJunior_Homeworks\HW_055_WeaponsReport\bin\Debug\net7.0\HW_055_WeaponsReport.deps.json
+D:\ProjectsU\IJunior_Homeworks\HW_055_WeaponsReport\bin\Debug\net7.0\HW_055_WeaponsReport.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HW_055_WeaponsReport\bin\Debug\net7.0\HW_055_WeaponsReport.dll
+D:\ProjectsU\IJunior_Homeworks\HW_055_WeaponsReport\bin\Debug\net7.0\HW_055_WeaponsReport.pdb
+D:\ProjectsU\IJunior_Homeworks\HW_055_WeaponsReport\obj\Debug\net7.0\HW_055_WeaponsReport.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HW_055_WeaponsReport\obj\Debug\net7.0\HW_055_WeaponsReport.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HW_055_WeaponsReport\obj\Debug\net7.0\HW_055_WeaponsReport.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HW_055_WeaponsReport\obj\Debug\net7.0\HW_055_WeaponsReport.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HW_055_WeaponsReport\obj\Debug\net7.0\HW_055_WeaponsReport.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HW_055_WeaponsReport\obj\Debug\net7.0\HW_055_WeaponsReport.dll
+D:\ProjectsU\IJunior_Homeworks\HW_055_WeaponsReport\obj\Debug\net7.0\refint\HW_055_WeaponsReport.dll
+D:\ProjectsU\IJunior_Homeworks\HW_055_WeaponsReport\obj\Debug\net7.0\HW_055_WeaponsReport.pdb
+D:\ProjectsU\IJunior_Homeworks\HW_055_WeaponsReport\obj\Debug\net7.0\HW_055_WeaponsReport.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HW_055_WeaponsReport\obj\Debug\net7.0\ref\HW_055_WeaponsReport.dll

@@ -1,4 +1,6 @@
-﻿namespace HW_051_Amnesty
+﻿using System.Collections.Immutable;
+
+namespace HW_051_Amnesty
 {
     internal class Program
     {
@@ -52,18 +54,16 @@
 
     public static class PrisonerFactory
     {
-        public const string ANTI = "Антиправительственное";
-
         private readonly static string[] s_names;
-        private readonly static string[] s_crimeTypes;
+        private readonly static ImmutableArray<string> s_crimeTypes;
 
         static PrisonerFactory()
         {
             s_names = new string[] { "Кларк Кент", "Иван Иванов", "Александр Петров", "Семен Слепаков" };
-            s_crimeTypes = new string[] { "Антиправительственное", "Административное", "Гражданское", "Уголовное" };
+            s_crimeTypes = ImmutableArray.Create( "Антиправительственное", "Административное", "Гражданское", "Уголовное");
         }
 
-        public static string[] CrimeTypes => s_crimeTypes;
+        public static ImmutableArray<string> CrimeTypes => s_crimeTypes;
 
         public static Prisoner CreatePrisoner()
         {

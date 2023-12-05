@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HW_053_SeverPlayersTop\bin\Debug\net7.0\HW_053_SeverPlayersTop.exe
+D:\ProjectsU\IJunior_Homeworks\HW_053_SeverPlayersTop\bin\Debug\net7.0\HW_053_SeverPlayersTop.deps.json
+D:\ProjectsU\IJunior_Homeworks\HW_053_SeverPlayersTop\bin\Debug\net7.0\HW_053_SeverPlayersTop.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HW_053_SeverPlayersTop\bin\Debug\net7.0\HW_053_SeverPlayersTop.dll
+D:\ProjectsU\IJunior_Homeworks\HW_053_SeverPlayersTop\bin\Debug\net7.0\HW_053_SeverPlayersTop.pdb
+D:\ProjectsU\IJunior_Homeworks\HW_053_SeverPlayersTop\obj\Debug\net7.0\HW_053_SeverPlayersTop.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HW_053_SeverPlayersTop\obj\Debug\net7.0\HW_053_SeverPlayersTop.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HW_053_SeverPlayersTop\obj\Debug\net7.0\HW_053_SeverPlayersTop.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HW_053_SeverPlayersTop\obj\Debug\net7.0\HW_053_SeverPlayersTop.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HW_053_SeverPlayersTop\obj\Debug\net7.0\HW_053_SeverPlayersTop.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HW_053_SeverPlayersTop\obj\Debug\net7.0\HW_053_SeverPlayersTop.dll
+D:\ProjectsU\IJunior_Homeworks\HW_053_SeverPlayersTop\obj\Debug\net7.0\refint\HW_053_SeverPlayersTop.dll
+D:\ProjectsU\IJunior_Homeworks\HW_053_SeverPlayersTop\obj\Debug\net7.0\HW_053_SeverPlayersTop.pdb
+D:\ProjectsU\IJunior_Homeworks\HW_053_SeverPlayersTop\obj\Debug\net7.0\HW_053_SeverPlayersTop.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HW_053_SeverPlayersTop\obj\Debug\net7.0\ref\HW_053_SeverPlayersTop.dll

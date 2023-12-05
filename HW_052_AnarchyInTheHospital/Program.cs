@@ -73,14 +73,14 @@
 
         private void SortPatientsByName()
         {
-            IEnumerable<Patient> patients = _patients.OrderBy(p => p.Name);
+            IEnumerable<Patient> patients = _patients.OrderBy(patient => patient.Name);
 
             Show(patients);
         }
 
         private void SortPatientsByAge()
         {
-            IEnumerable<Patient> patients = _patients.OrderBy(p => p.Age);
+            IEnumerable<Patient> patients = _patients.OrderBy(patient => patient.Age);
 
             Show(patients);
         }

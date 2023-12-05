@@ -1,0 +1,15 @@
+D:\ProjectsU\IJunior_Homeworks\HW_054_ExpiredStew\bin\Debug\net7.0\HW_054_ExpiredStew.exe
+D:\ProjectsU\IJunior_Homeworks\HW_054_ExpiredStew\bin\Debug\net7.0\HW_054_ExpiredStew.deps.json
+D:\ProjectsU\IJunior_Homeworks\HW_054_ExpiredStew\bin\Debug\net7.0\HW_054_ExpiredStew.runtimeconfig.json
+D:\ProjectsU\IJunior_Homeworks\HW_054_ExpiredStew\bin\Debug\net7.0\HW_054_ExpiredStew.dll
+D:\ProjectsU\IJunior_Homeworks\HW_054_ExpiredStew\bin\Debug\net7.0\HW_054_ExpiredStew.pdb
+D:\ProjectsU\IJunior_Homeworks\HW_054_ExpiredStew\obj\Debug\net7.0\HW_054_ExpiredStew.csproj.AssemblyReference.cache
+D:\ProjectsU\IJunior_Homeworks\HW_054_ExpiredStew\obj\Debug\net7.0\HW_054_ExpiredStew.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsU\IJunior_Homeworks\HW_054_ExpiredStew\obj\Debug\net7.0\HW_054_ExpiredStew.AssemblyInfoInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HW_054_ExpiredStew\obj\Debug\net7.0\HW_054_ExpiredStew.AssemblyInfo.cs
+D:\ProjectsU\IJunior_Homeworks\HW_054_ExpiredStew\obj\Debug\net7.0\HW_054_ExpiredStew.csproj.CoreCompileInputs.cache
+D:\ProjectsU\IJunior_Homeworks\HW_054_ExpiredStew\obj\Debug\net7.0\HW_054_ExpiredStew.dll
+D:\ProjectsU\IJunior_Homeworks\HW_054_ExpiredStew\obj\Debug\net7.0\refint\HW_054_ExpiredStew.dll
+D:\ProjectsU\IJunior_Homeworks\HW_054_ExpiredStew\obj\Debug\net7.0\HW_054_ExpiredStew.pdb
+D:\ProjectsU\IJunior_Homeworks\HW_054_ExpiredStew\obj\Debug\net7.0\HW_054_ExpiredStew.genruntimeconfig.cache
+D:\ProjectsU\IJunior_Homeworks\HW_054_ExpiredStew\obj\Debug\net7.0\ref\HW_054_ExpiredStew.dll
