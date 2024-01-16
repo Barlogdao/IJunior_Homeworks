@@ -44,9 +44,9 @@
         {
             char symbol = 'Б';
 
-            List<Soldier> tempSoldiers = firstSquad.Where(solder => solder.Name.StartsWith(symbol)).ToList();
-            secondSquad = secondSquad.Union(tempSoldiers).ToList();
+            List<Soldier> tempSoldiers = firstSquad.Where(soldier => soldier.Name.StartsWith(symbol)).ToList();
             firstSquad = firstSquad.Except(tempSoldiers).ToList();
+            secondSquad = secondSquad.Union(tempSoldiers).ToList();
         }
     }
 

@@ -4,13 +4,15 @@
     {
         static void Main(string[] args)
         {
+            SoldierFactory soldierFactory = new SoldierFactory();
+
             int soldiersAmount = 10;
 
             List<Soldier> soldiers = new List<Soldier>();
 
             for (int i = 0; i < soldiersAmount; i++)
             {
-                soldiers.Add(SoldierFactory.CreateSoldier());
+                soldiers.Add(soldierFactory.CreateSoldier());
             }
 
             ShowReport(soldiers);
@@ -43,27 +45,27 @@
         public int ServiceTime { get; init; }
     }
 
-    public static class SoldierFactory
+    public class SoldierFactory
     {
-        private static readonly string[] s_names;
-        private static readonly string[] s_weapons;
-        private static readonly string[] s_ranks;
+        private readonly string[] _names;
+        private readonly string[] _weapons;
+        private readonly string[] _ranks;
 
-        static SoldierFactory()
+        public SoldierFactory()
         {
-            s_names = new string[] { "Василий", "Дмитрий", "Семен", "Иван", "Сергей", "Захар" };
-            s_weapons = new string[] { "Пистолет", "Автомат", "Пулемет", "Базука", "Винтовка" };
-            s_ranks = new string[] { "Лейтенат", "Капитан", "Майор", "Полковник" };
+            _names = new string[] { "Василий", "Дмитрий", "Семен", "Иван", "Сергей", "Захар" };
+            _weapons = new string[] { "Пистолет", "Автомат", "Пулемет", "Базука", "Винтовка" };
+            _ranks = new string[] { "Лейтенат", "Капитан", "Майор", "Полковник" };
         }
 
-        public static Soldier CreateSoldier()
+        public Soldier CreateSoldier()
         {
             int minServiceTime = 6;
             int maxServiceTime = 24;
 
-            string name = s_names[RandomUtils.GetRandomNumber(s_names.Length)];
-            string weapon = s_weapons[RandomUtils.GetRandomNumber(s_weapons.Length)];
-            string rank = s_ranks[RandomUtils.GetRandomNumber(s_ranks.Length)];
+            string name = _names[RandomUtils.GetRandomNumber(_names.Length)];
+            string weapon = _weapons[RandomUtils.GetRandomNumber(_weapons.Length)];
+            string rank = _ranks[RandomUtils.GetRandomNumber(_ranks.Length)];
             int serviceTime = RandomUtils.GetRandomNumber(minServiceTime, maxServiceTime);
 
             return new Soldier(name, weapon, rank, serviceTime);

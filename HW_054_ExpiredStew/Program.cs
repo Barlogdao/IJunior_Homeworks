@@ -4,6 +4,8 @@
     {
         static void Main(string[] args)
         {
+            StewFactory stewFactory = new StewFactory();
+
             int stewAmount = 50;
             int currentYear = 2023;
 
@@ -11,7 +13,7 @@
 
             for (int i = 0; i < stewAmount; i++)
             {
-                stews.Add(StewFactory.CreateStew());
+                stews.Add(stewFactory.CreateStew());
             }
 
             ShowFreshStews(stews, currentYear);
@@ -45,16 +47,16 @@
         }
     }
 
-    public static class StewFactory
+    public class StewFactory
     {
-        private static readonly string[] s_names;
+        private readonly string[] _names;
 
-        static StewFactory()
+        public StewFactory()
         {
-            s_names = new string[] { "Хряк", "Алтай", "Дружок", "Лесник" };
+            _names = new string[] { "Хряк", "Алтай", "Дружок", "Лесник" };
         }
 
-        public static Stew CreateStew() 
+        public Stew CreateStew() 
         {
             int minProducionYear = 1941;
             int maxProductionYear = 2022;
@@ -62,7 +64,7 @@
             int minShelfLife = 10;
             int maxShelfLife = 40;
 
-            string name = s_names[RandomUtils.GetRandomNumber(s_names.Length)];
+            string name = _names[RandomUtils.GetRandomNumber(_names.Length)];
             int productionYear = RandomUtils.GetRandomNumber(minProducionYear, maxProductionYear);
             int shelfLife = RandomUtils.GetRandomNumber(minShelfLife, maxShelfLife);
 

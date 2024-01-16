@@ -18,11 +18,13 @@
 
         public Hospital(int patientsAmount)
         {
+            PatientFactory patientFactory = new PatientFactory();
+
             _patients = new List<Patient>();
 
             for (int i = 0; i < patientsAmount; i++)
             {
-                _patients.Add(PatientFactory.CreatePatient());
+                _patients.Add(patientFactory.CreatePatient());
             }
         }
 
@@ -131,18 +133,18 @@
         }
     }
 
-    public static class PatientFactory
+    public class PatientFactory
     {
-        private readonly static string[] s_names;
-        private readonly static string[] s_diseases;
+        private readonly string[] s_names;
+        private readonly string[] s_diseases;
 
-        static PatientFactory()
+        public PatientFactory()
         {
             s_names = new string[] { "Кларк Кент", "Иван Иванов", "Александр Петров", "Семен Слепаков" };
             s_diseases = new string[] { "Волчанка", "Свинка", "Насморк", "Слепота", "Глухота", "Диабет" };
         }
 
-        public static Patient CreatePatient()
+        public Patient CreatePatient()
         {
             int minAge = 18;
             int maxAge = 55;

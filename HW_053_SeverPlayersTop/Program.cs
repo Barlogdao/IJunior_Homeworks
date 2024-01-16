@@ -4,6 +4,8 @@
     {
         static void Main(string[] args)
         {
+            PlayerFactory playerFactory = new PlayerFactory();
+
             int playersAmount = 20;
             int recordsAmount = 3;
 
@@ -11,7 +13,7 @@
 
             for (int i = 0; i < playersAmount; i++)
             {
-                players.Add(PlayerFactory.CreatePlayer());
+                players.Add(playerFactory.CreatePlayer());
             }
 
             Console.WriteLine("Топ игроков по уровню:");
@@ -63,16 +65,16 @@
         }
     }
 
-    public static class PlayerFactory
+    public class PlayerFactory
     {
-        private static string[] s_names;
+        private readonly string[] _names;
 
-        static PlayerFactory()
+        public PlayerFactory()
         {
-            s_names = new string[] { "Джон", "Билл", "Стив", "Дональд", "Барак", "Джордж", "Винстон", "Хью" };
+            _names = new string[] { "Джон", "Билл", "Стив", "Дональд", "Барак", "Джордж", "Винстон", "Хью" };
         }
 
-        public static Player CreatePlayer()
+        public Player CreatePlayer()
         {
             int minLevel = 1;
             int maxLevel = 100;
@@ -80,7 +82,7 @@
             int minStrength = 1;
             int maxStrength = 13;
 
-            string name = s_names[RandomUtils.GetRandomNumber(s_names.Length)];
+            string name = _names[RandomUtils.GetRandomNumber(_names.Length)];
             int level = RandomUtils.GetRandomNumber(minLevel, maxLevel + 1);
             int strength = RandomUtils.GetRandomNumber(minStrength, maxStrength + 1);
 

@@ -6,14 +6,15 @@ namespace HW_051_Amnesty
     {
         static void Main(string[] args)
         {
+            PrisonerFactory prisonerFactory = new PrisonerFactory();
             int prisonersAmount = 10;
-            string crimeType = PrisonerFactory.CrimeTypes[0];
+            string crimeType = prisonerFactory.CrimeTypes[0];
 
             List<Prisoner> prisoners = new();
 
             for (int i = 0; i < prisonersAmount; i++)
             {
-                prisoners.Add(PrisonerFactory.CreatePrisoner());
+                prisoners.Add(prisonerFactory.CreatePrisoner());
             }
 
             Console.WriteLine("Список преступников до амнистии:");
@@ -52,22 +53,22 @@ namespace HW_051_Amnesty
         }
     }
 
-    public static class PrisonerFactory
+    public  class PrisonerFactory
     {
-        private readonly static string[] s_names;
-        private readonly static ImmutableArray<string> s_crimeTypes;
+        private readonly  string[] _names;
+        private readonly  ImmutableArray<string> _crimeTypes;
 
-        static PrisonerFactory()
+        public PrisonerFactory()
         {
-            s_names = new string[] { "Кларк Кент", "Иван Иванов", "Александр Петров", "Семен Слепаков" };
-            s_crimeTypes = ImmutableArray.Create( "Антиправительственное", "Административное", "Гражданское", "Уголовное");
+            _names = new string[] { "Кларк Кент", "Иван Иванов", "Александр Петров", "Семен Слепаков" };
+            _crimeTypes = ImmutableArray.Create( "Антиправительственное", "Административное", "Гражданское", "Уголовное");
         }
 
-        public static ImmutableArray<string> CrimeTypes => s_crimeTypes;
+        public  ImmutableArray<string> CrimeTypes => _crimeTypes;
 
-        public static Prisoner CreatePrisoner()
+        public  Prisoner CreatePrisoner()
         {
-            return new Prisoner(s_names[RandomUtils.GetRandomNumber(s_names.Length)], s_crimeTypes[RandomUtils.GetRandomNumber(s_crimeTypes.Length)]);
+            return new Prisoner(_names[RandomUtils.GetRandomNumber(_names.Length)], _crimeTypes[RandomUtils.GetRandomNumber(_crimeTypes.Length)]);
         }
     }
 
